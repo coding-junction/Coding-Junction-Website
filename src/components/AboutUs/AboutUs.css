@@ -1,0 +1,60 @@
+.AboutUs{
+    /* background-color: blue; */
+    height: 85vh;
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+    
+}
+
+.aboutus-head{
+    font-weight: bolder;
+    font-size: 12rem;
+    writing-mode: vertical-lr;
+    border-left: 2px solid  #a3dae0;
+}
+
+.aboutus-text-container{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutus-more-container{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.aboutus-more-container button{
+    background-color: #00000000;
+    border: none;
+    box-shadow: inset 0px 0px 0px 2px red;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.1s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    align-self:flex-end;
+    border-radius: 0.5rem;
+}
+
+.aboutus-text{
+    width: 20vw;
+    font-size: 2rem; 
+} 
+
+.aboutus-photo{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-photo img{
+    height: 100%;
+}

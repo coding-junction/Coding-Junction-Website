@@ -1,0 +1,42 @@
+.ProjDom{
+    height: 85vh;
+    /* display: flex; */
+    gap: 2rem;
+    margin: 2rem;
+    /* align-items: center; */
+    /* justify-content:space-around; */
+    padding: 4rem;
+    /* background-color: wheat; */
+}
+
+.projDom-head{
+    font-size: 9rem;
+    border-bottom: 2px solid  #a3dae0;
+    /* display: flex;
+    justify-content:; */
+}
+
+.cards{
+    color: #a3dae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+    padding: 3rem 5rem;
+    background: red;
+    /* width: 50%; */
+    
+}
+
+/* .card-title{
+    display: flex;
+    justify-content:center; 
+} */
+
+.card p{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    /* line-height: 150%; */
+    /* background-color: red; */
+}

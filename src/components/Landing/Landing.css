@@ -1,0 +1,52 @@
+.landing{
+  height: 85vh;
+  margin: 1rem 2rem;
+}
+
+.intro{
+    /* color: aliceblue; */
+    font-size: 5rem;
+    color: #00111d;
+    /* -webkit-text-stroke: 3px  #a3dae0;
+     -webkit-text-fill-color: white; 
+    -webkit-text-fill-color: #0d2c32; */
+    text-shadow:
+    3px 3px 0 #bdf8ff,
+    -3px 3px 0 #bdf8ff,
+    -3px -3px 0 #bdf8ff,
+    3px -3px 0 #bdf8ff;
+
+}
+
+.typing-text{
+  font-size: 3rem;
+  width: auto;
+  width: min-content;
+}
+
+.typing-text h3{
+  overflow: hidden;
+  border-right: 3px solid #bdf8ff;
+  white-space: nowrap;
+  letter-spacing: 0.15rem;
+  animation: 
+    typing 4s steps(42,end),
+    blink-caret 2s step-end infinite,
+    border-blink 1s step-end 4s infinite;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes typing{
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret{
+  from, to {border-color: #a3dae0}
+  50%{boder-color: transparent}
+}
+
+@keyframes border-blink {
+  from, to { border-color: #a3dae0 }
+  50%{ border-color: transparent}
+}

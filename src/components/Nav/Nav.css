@@ -1,0 +1,55 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+
+.nav{
+    height: 5rem;
+    /* background-color: black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 1rem;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+.nav ul li button.login-btn{
+    background-color: red;
+    /* border: 2px solid #ae7c54; */
+    color: white;
+}
+
+.nav ul li button.register-btn{
+    box-shadow:inset 0px 0px 0px 2px red;
+    color: white;
+}
+
+.nav ul li button{
+    background-color: #ffffff00;
+    border: none;
+    color: #a3dae0;
+    font-size: 1.5rem;
+    transition: 0.1s ease;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.nav ul li button:hover{
+    color: white;
+    text-shadow: 0px 1px 10px rgba(245, 245, 245, 0.519);
+}
+
+
+
