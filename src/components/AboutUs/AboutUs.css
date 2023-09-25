@@ -1,6 +1,6 @@
 .AboutUs{
     /* background-color: blue; */
-    height: 85vh;
+    height: 90vh;
     display: flex;
     gap: 2rem;
     margin: 2rem;
@@ -12,7 +12,7 @@
 
 .aboutus-head{
     font-weight: bolder;
-    font-size: 12rem;
+    font-size: 8rem;
     writing-mode: vertical-lr;
     border-left: 2px solid  #a3dae0;
 }
@@ -35,7 +35,7 @@
     border: none;
     box-shadow: inset 0px 0px 0px 2px red;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     transition: 0.1s ease;
     cursor: pointer;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -46,7 +46,7 @@
 
 .aboutus-text{
     width: 20vw;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
 } 
 
 .aboutus-photo{

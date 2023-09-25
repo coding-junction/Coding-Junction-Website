@@ -1,11 +1,12 @@
 .landing{
-  height: 85vh;
-  margin: 1rem 2rem;
+  height: 90vh;
+  margin: 0 2rem;
+  /* background-color: #bdf8ff4b; */
 }
 
 .intro{
     /* color: aliceblue; */
-    font-size: 5rem;
+    font-size: 4rem;
     color: #00111d;
     /* -webkit-text-stroke: 3px  #a3dae0;
      -webkit-text-fill-color: white; 
@@ -15,6 +16,7 @@
     -3px 3px 0 #bdf8ff,
     -3px -3px 0 #bdf8ff,
     3px -3px 0 #bdf8ff;
+    padding: 0 1rem;
 
 }
 

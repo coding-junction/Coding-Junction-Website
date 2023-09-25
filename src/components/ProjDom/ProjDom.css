@@ -10,33 +10,18 @@
 }
 
 .projDom-head{
-    font-size: 9rem;
+    font-size: 8rem;
+    font-weight: bolder;
     border-bottom: 2px solid  #a3dae0;
     /* display: flex;
     justify-content:; */
 }
 
-.cards{
-    color: #a3dae0;
+.domains-card{
+    border: 1px solid red;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10rem;
-    padding: 3rem 5rem;
-    background: red;
-    /* width: 50%; */
-    
-}
-
-/* .card-title{
-    display: flex;
-    justify-content:center; 
-} */
-
-.card p{
-    display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    margin: 2rem;
     padding: 2rem;
-    /* line-height: 150%; */
-    /* background-color: red; */
+    
 }
