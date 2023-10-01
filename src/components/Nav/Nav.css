@@ -5,7 +5,7 @@
 
 .nav{
     height: 5rem;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
     /* position: sticky;
@@ -26,13 +26,13 @@
 }
 
 .nav ul li button.login-btn{
-    background-color: red;
+    background-color: #ce1a1e;
     /* border: 2px solid #ae7c54; */
     color: white;
 }
 
 .nav ul li button.register-btn{
-    box-shadow:inset 0px 0px 0px 2px red;
+    box-shadow:inset 0px 0px 0px 2px #ce1a1e;
     color: white;
 }
 

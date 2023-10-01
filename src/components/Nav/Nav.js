@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Nav.css";
 
@@ -11,22 +12,34 @@ export default function Nav() {
       <div className="nav-buttons">
         <ul>
           <li>
+          <Link to = '/'>
             <button>HOME</button>
+          </Link>
           </li>
           <li>
-            <button>DOMAINS</button>
+            <Link to = '/underConstruction'>
+              <button>APP</button>
+            </Link>
           </li>
           <li>
-            <button>OUR TEAM</button>
+            <Link to = '/underConstruction'>
+              <button>OUR TEAM</button>
+            </Link>
           </li>
           <li>
-            <button>CONTACT US</button>
+            <Link to = '/underConstruction'>
+              <button>CONTACT US</button>
+            </Link>
           </li>
           <li>
-            <button className="register-btn">REGISTER</button>
+            <Link to = '/underConstruction'>
+              <button className="register-btn">REGISTER</button>
+            </Link>
           </li>
           <li>
-            <button className="login-btn">LOGIN</button>
+            <Link to = '/underConstruction'>
+              <button className="login-btn">LOGIN</button>
+            </Link>
           </li>
         </ul>
       </div>
