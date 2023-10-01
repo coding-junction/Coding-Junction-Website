@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ProjDom.css'
+import '../../Assets/Images/webdev.png'
 
 export default function ProjDom() {
 
@@ -10,10 +11,30 @@ export default function ProjDom() {
         Project Domains
       </div>
       <div className='projDoms-domains'>
-        <span className='domains-card'>Web Dev</span>
-        <span className='domains-card'>Android</span>
-        <span className='domains-card'>C/C++</span>
-        <span className='domains-card'>AI/ML</span>
+        <span className='domains-card'>
+          <h5>
+            Web Dev
+          </h5>
+          <img src= {require("../../Assets/Images/webdev.png")} />
+        </span>
+        <span className='domains-card'>
+          <h5>
+            Android
+          </h5>
+          <img src= {require("../../Assets/Images/android.png")} />
+        </span>
+        <span className='domains-card'>
+          <h5>
+            C/C++
+          </h5>
+          <img src= {require("../../Assets/Images/cpp.png")} />
+        </span>
+        <span className='domains-card'>
+          <h5>
+            AI/ML
+          </h5>
+          <img src= {require("../../Assets/Images/ai.png")} />
+        </span>
       </div>
         
     </div>
