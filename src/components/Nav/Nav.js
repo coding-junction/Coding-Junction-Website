@@ -5,9 +5,9 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <nav className="nav">
+    <div className="nav">
       <div className="logo">
-        LOGO
+        <img src={ require("../../Assets/Images/club-logo.png") } alt="" />
       </div>
       <div className="nav-buttons">
         <ul>
@@ -43,6 +43,6 @@ export default function Nav() {
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 }
