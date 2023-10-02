@@ -1,7 +1,9 @@
 .landing{
-  height: 90vh;
+  height: auto;
   margin: 0 2rem;
-  /* background-color: #bdf8ff4b; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .intro{
@@ -53,4 +55,23 @@
 @keyframes border-blink {
   from, to { border-color: #a3dae0 }
   50%{ border-color: transparent}
+}
+
+@media only screen and (max-width: 850px) {
+  .landing{
+    height: 70vh;
+    /* background-color: #bdf8ff4b; */
+    width: 80vw;
+    justify-content: space-around;
+  }
+  .intro{
+    /* background-color: teal; */
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  .typing-text{
+    width: 80vw;
+    /* background-color: #a3dae025; */
+    font-size: 0.7rem;
+  }
 }
