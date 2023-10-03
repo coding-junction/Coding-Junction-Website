@@ -1,13 +1,13 @@
 .AboutUs{
     /* background-color: blue; */
-    height: 90vh;
+    height: auto;
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 2rem;
     margin: 2rem;
     align-items: center;
     justify-content: space-around;
     padding: 4rem;
-    
 }
 
 .aboutus-head{
@@ -33,7 +33,7 @@
 .aboutus-more-container button{
     background-color: #00000000;
     border: none;
-    box-shadow: inset 0px 0px 0px 2px red;
+    box-shadow: inset 0px 0px 0px 2px #ce1a1e;
     color: white;
     font-size: 1.1rem;
     transition: 0.1s ease;
@@ -46,7 +46,8 @@
 
 .aboutus-text{
     width: 20vw;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
+    /* background-color: #ce1a1e;  */
 } 
 
 .aboutus-photo{
@@ -57,4 +58,44 @@
 
 .aboutus-photo img{
     height: 100%;
+}
+
+@media only screen and (max-width: 850px){
+    .AboutUs{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        /* background-color: rgba(255, 228, 196, 0.293); */
+        padding: 2rem 0;
+        margin: 1rem;
+    }
+    .aboutus-head{
+        text-align: center;
+        writing-mode: horizontal-tb;
+        font-size: 3rem;
+        width: 70vw;
+    }
+    .aboutus-text{
+        width: fit-content;
+        font-size: 1rem;
+        padding: 2rem;
+        /* background-color: red; */
+    }
+    .aboutus-photo{
+        margin-top: 0;
+        width: fit-content;
+        height: 20vh;
+        /* background-color: aqua; */
+    }
+    .aboutus-photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .aboutus-more-container{
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+    .aboutus-more-container button{
+        font-size: 0.8rem;
+    }
 }
