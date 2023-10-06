@@ -70,8 +70,13 @@
     font-size: 1.6rem;
   }
   .typing-text{
-    width: 80vw;
+    width: min-content;
     /* background-color: #a3dae025; */
     font-size: 0.7rem;
+  }
+  .typing-text h3{
+    /* background-color: #a3dae025; */
+    width: min-content;
+    padding-right: 0;
   }
 }
