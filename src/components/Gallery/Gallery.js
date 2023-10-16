@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -34,47 +35,37 @@ export default function App() {
   const galleryArray = [
     {
       "key": 1,
-      "url": "https://swiperjs.com/demos/images/nature-1.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267946/CjGal/1671112527524_plcckn.jpg",
       "desc": "photu"
     },
     {
       "key": 2,
-      "url": "https://swiperjs.com/demos/images/nature-2.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267442/CjGal/1671622335258_atdf2c.jpg",
       "desc": "photu"
     },
     {
       "key": 3,
-      "url": "https://swiperjs.com/demos/images/nature-3.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671112527492_ckogb6.jpg",
       "desc": "photu"
     },
     {
       "key": 4,
-      "url": "https://swiperjs.com/demos/images/nature-4.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671372336093_l0dha0.jpg",
       "desc": "photu"
     },
     {
       "key": 5,
-      "url": "https://swiperjs.com/demos/images/nature-5.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671622335880_ark31b.jpg",
       "desc": "photu"
     },
     {
       "key": 6,
-      "url": "https://swiperjs.com/demos/images/nature-6.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697267437/CjGal/1671622335201_t692qm.jpg",
       "desc": "photu"
     },
     {
       "key": 7,
-      "url": "https://swiperjs.com/demos/images/nature-7.jpg",
-      "desc": "photu"
-    },
-    {
-      "key": 8,
-      "url": "https://swiperjs.com/demos/images/nature-8.jpg",
-      "desc": "photu"
-    },
-    {
-      "key": 9,
-      "url": "https://swiperjs.com/demos/images/nature-9.jpg",
+      "url": "https://res.cloudinary.com/dneogaofx/image/upload/v1697266683/CjGal/WhatsApp_Image_2023-10-13_at_17.46.18_b841d2bc_zyhoen.jpg",
       "desc": "photu"
     }
   ];
@@ -86,6 +77,11 @@ export default function App() {
       </div>
       <Swiper
         effect={'coverflow'}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false
+        }}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={count}
@@ -97,7 +93,7 @@ export default function App() {
           slideShadows: true,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
         className="mySwiper"
         style={{
           "--swiper-pagination-color": "#a3dae0",

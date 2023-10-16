@@ -45,8 +45,8 @@
 }
 
 .aboutus-text{
-    width: 20vw;
-    font-size: 1.5rem;
+    width: auto;
+    font-size: 1.3rem;
     text-align: justify;
     /* background-color: #ce1a1e;  */
 } 
