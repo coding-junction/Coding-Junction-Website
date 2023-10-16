@@ -1,5 +1,6 @@
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import "./Particle.css"
 
 export default function Particle() {
 
@@ -16,7 +17,7 @@ export default function Particle() {
 
 
     return (
-        <>
+        <div className="particle">
             <Particles 
                 id="tsparticles"
                 init = {particlesInit}
@@ -30,7 +31,7 @@ export default function Particle() {
                     },
                     particles: {
                         number: {
-                            value: 80,
+                            value: 100,
                             density: {
                                 enable: true,
                             },
@@ -70,6 +71,14 @@ export default function Particle() {
                         move: {
                             enable: true,
                             speed: 3,
+                            direction: "bottom-right",
+                            random: true,
+                            out_mode: "out",
+                            attract:{
+                                enable: false,
+                                rotateX: 600,
+                                rotateY: 1200
+                            }
                         },
                     },
                     interactivity: {
@@ -79,8 +88,8 @@ export default function Particle() {
                                 mode: "repulse",
                             },
                             onClick: {
-                                enable: true,
-                                mode: "push",
+                                enable: false,
+                                mode: "repulse",
                             },
                         },
                         modes: {
@@ -112,6 +121,6 @@ export default function Particle() {
                     }}
                 }
             />
-        </>
+        </div>
     )
 }

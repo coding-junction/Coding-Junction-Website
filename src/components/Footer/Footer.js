@@ -10,17 +10,17 @@ export default function Footer() {
     <div className='footer'>
         <div className='footer-form'>
           <p className='footer-form-head'>Let's connect!</p>
-          <p className='footer-form-line'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iure fuga aut illum cum expedita minima, excepturi magni molestias iusto!</p>
+          <p className='footer-form-line'>If you are thinking or interested in joining the club or want to know more about us, connect with us by dropping your Email-ID with us. We will be glad to get in touch with you.</p>
           <form>
               <input className='input-email' type="email" name="email" placeholder="Type your e-mail here..." />
               <input className='input-submit' type="submit" name="submit" />
           </form>
         </div>
         <div className='footer-cj'>
-            <img src={require('../../Assets/Images/club-logo.png')} alt="" />
+            <img src={require('../../Assets/Logo/club-logo.png')} alt="" />
             <h3>Coding Junction</h3>
             <p>A club by Students of UIT-BU.</p>
-            <p>Copyright &copy; 2022</p>
+            <p>Copyright &copy; 2023</p>
         </div>
         <div className='footer-soc'>
           <p className='footer-text-socials'>Connect with Us</p>

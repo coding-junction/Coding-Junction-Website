@@ -12,7 +12,7 @@ export default function Nav() {
     <>
     <div className="nav">
       <div className="logo">
-        <img src={require("../../Assets/Images/club-logo.png")} />
+        <img src={require("../../Assets/Logo/club-logo.png")} />
       </div>
       <div className="nav-buttons">
         <ul>

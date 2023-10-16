@@ -45,8 +45,9 @@
 }
 
 .aboutus-text{
-    width: 20vw;
-    font-size: 1.5rem;
+    width: auto;
+    font-size: 1.3rem;
+    text-align: justify;
     /* background-color: #ce1a1e;  */
 } 
 
@@ -60,19 +61,29 @@
     height: 100%;
 }
 
-@media only screen and (max-width: 850px){
+.aboutus-text-container-phone{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
     .AboutUs{
         flex-direction: column-reverse;
         justify-content: space-around;
         /* background-color: rgba(255, 228, 196, 0.293); */
         padding: 2rem 0;
         margin: 1rem;
+        gap: 3rem;
     }
     .aboutus-head{
-        text-align: center;
-        writing-mode: horizontal-tb;
+        width: 80vw;
         font-size: 3rem;
-        width: 70vw;
+        writing-mode: horizontal-tb;
+        rotate: 0deg;
+        border-bottom: 2px solid #a3dae0;
+        border-left: none;
+        padding: 0.5rem 0;
+        /* background-color: #b61a1a; */
+        margin: auto 1rem;
     }
     .aboutus-text{
         width: fit-content;
@@ -83,17 +94,23 @@
     .aboutus-photo{
         margin-top: 0;
         width: fit-content;
-        height: 20vh;
+        height: 28vh;
         /* background-color: aqua; */
     }
     .aboutus-photo img{
         width: 100%;
         height: 100%;
     }
-    .aboutus-more-container{
+    .aboutus-text-container{
+        display: none;
+    }
+    .aboutus-text-container-phone{
+        display: flex;
         justify-content: center;
-        margin-top: 1rem;
-        margin-bottom: 0;
+        /* background-color: #a3dae0; */
+    }
+    .phone{
+        padding-top: 0;
     }
     .aboutus-more-container button{
         font-size: 0.8rem;
