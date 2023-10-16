@@ -9,6 +9,7 @@ import WebCursor from './components/WebCursor/WebCursor';
 import UnderBuild from './components/UnderBuild/UnderBuild'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import Login from './components/Login/Login';
 // import Gallery from './components/Gallery/Gallery';
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
             <Route path = "/underConstruction" element={
               <UnderBuild/>
             } />
+            <Route path="/login" element={
+              <Login />} />
           </Routes>
         <Footer />
       </BrowserRouter>
