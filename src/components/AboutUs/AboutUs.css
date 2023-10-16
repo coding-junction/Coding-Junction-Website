@@ -45,8 +45,9 @@
 }
 
 .aboutus-text{
-    width: 20vw;
-    font-size: 1.5rem;
+    width: auto;
+    font-size: 1.3rem;
+    text-align: justify;
     /* background-color: #ce1a1e;  */
 } 
 
@@ -64,7 +65,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 800px){
     .AboutUs{
         flex-direction: column-reverse;
         justify-content: space-around;
@@ -93,7 +94,7 @@
     .aboutus-photo{
         margin-top: 0;
         width: fit-content;
-        height: 22vh;
+        height: 28vh;
         /* background-color: aqua; */
     }
     .aboutus-photo img{
