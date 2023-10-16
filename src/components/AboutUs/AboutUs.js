@@ -16,7 +16,7 @@ export default function AboutUs() {
        </div>
        </div>
        <div className='aboutus-photo'>
-            <img src="https://picsum.photos/1720/1080" alt="group pic" />
+            <img src = {require("../../Assets/Images/CJ-about-us-temp.jpg")} alt="group pic" />
        </div>
        <div className='aboutus-text-container'>
           <div className='aboutus-text'>
