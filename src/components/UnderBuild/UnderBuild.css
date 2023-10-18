@@ -33,3 +33,14 @@
     padding: 1rem;
     border: 1px solid #a3dae0;
 }
+
+@media only screen and (max-width: 850px){
+    .UnderBuild{
+        width: 80vw;
+        gap: 2rem;
+    }
+    .UnderBuild img{
+        width: 60vw;
+    }
+
+}

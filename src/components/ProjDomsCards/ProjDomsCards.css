@@ -59,6 +59,8 @@
 
 @media only screen and (max-width: 850px){
     .domains-card{
+        width: 18rem;
+        height: 20rem;
         color:#a3dae0;
         box-shadow: 0 0 2px rgba(255, 255, 255, 0.63),
                 0 0 10px #ffffff5f;
@@ -66,7 +68,7 @@
         backdrop-filter: blur(10px);
     }
     .domains-card:hover{
-        width: 13rem;
+        width: 18rem;
         height: 20rem;
     }
 }

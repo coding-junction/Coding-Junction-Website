@@ -1,12 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HiMenu } from 'react-icons/hi';
+import { IoMdClose } from "react-icons/io";
 
 import "./Nav.css";
 
 export default function Nav() {
 
   const [showMenu, setShowMenu] = useState(false);
-
+  const hideMenu = ()=>{
+    setShowMenu(false);
+  }
 
   return (
     <>
@@ -22,7 +26,7 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/download-app'>
               <button>APP</button>
             </Link>
           </li>
@@ -48,54 +52,54 @@ export default function Nav() {
           </li>
         </ul>
       </div>
+      <div className="nav-burger-switch">
+        <button onClick={()=>{
+          setShowMenu(!showMenu);
+        }}>
+          {showMenu ? <IoMdClose /> : <HiMenu /> }
+        </button>
+      </div>
     </div>
     <div className="nav-burger">
         {showMenu ?
           <>
-            <div>
-              <button onClick={() => {
-                setShowMenu(!showMenu)
-              }}>&#8904;</button>
-            </div>
             <div className="burger-menu">
               <ul>
                 <li>
                   <Link to='/'>
-                    <button>HOME</button>
+                    <button onClick={hideMenu}>HOME</button>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/download-app'>
+                    <button onClick={hideMenu}>APP</button>
                   </Link>
                 </li>
                 <li>
                   <Link to='/underConstruction'>
-                    <button>APP</button>
+                    <button onClick={hideMenu}>OUR TEAM</button>
                   </Link>
                 </li>
                 <li>
                   <Link to='/underConstruction'>
-                    <button>OUR TEAM</button>
+                    <button onClick={hideMenu}>CONTACT US</button>
                   </Link>
                 </li>
                 <li>
                   <Link to='/underConstruction'>
-                    <button>CONTACT US</button>
-                  </Link>
-                </li>
-                <li>
-                  <Link to='/underConstruction'>
-                    <button className="register-btn">REGISTER</button>
+                    <button className="register-btn" onClick={hideMenu}>REGISTER</button>
                   </Link>
                 </li>
                 <li>
                   <Link to='/login'>
-                    <button className="login-btn">LOGIN</button>
+                    <button className="login-btn" onClick={hideMenu}>LOGIN</button>
                   </Link>
                 </li>
               </ul>
             </div>
           </>
           :
-          <button onClick={() => {
-            setShowMenu(!showMenu)
-          }}>&equiv;</button>
+          <></>
         }
     </div>
     </>

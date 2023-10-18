@@ -10,13 +10,14 @@ import UnderBuild from './components/UnderBuild/UnderBuild'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
-// import Gallery from './components/Gallery/Gallery';
+import Gallery from './components/Gallery/Gallery';
+import DownApp from './components/DownApp/DownApp';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Particle />
+        {/* <Particle /> */}
         <WebCursor />
         <Nav />
           <Routes>
@@ -25,7 +26,7 @@ function App() {
                 <Landing />
                 <AboutUs />
                 <ProjDom />
-                {/* <Gallery/> */}
+                <Gallery/>
               </>
             } />
             <Route path = "/underConstruction" element={
@@ -33,6 +34,10 @@ function App() {
             } />
             <Route path="/login" element={
               <Login />} />
+            <Route path = "/download-app" element={
+              <DownApp />
+            } />
+            
           </Routes>
         <Footer />
       </BrowserRouter>
