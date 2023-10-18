@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <Particle /> */}
+        <Particle />
         <WebCursor />
         <Nav />
           <Routes>
