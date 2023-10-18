@@ -6,7 +6,7 @@ export default function Login(){
       <div className="login-container">
         <div className="login-bg">
         <div className="login">
-        <h1>Login</h1>
+        <h1 className="log-txt">Login</h1>
         <form>
           <div className="form-group">
             <label htmlFor="username">Username</label>
@@ -29,7 +29,19 @@ export default function Login(){
           <button className="logButt" type="submit">Login</button>
         </form>
       </div>
-      <div className="login-card"></div>
+      <div className="login-card">
+        <h1 className="txt-1">Hello there.</h1>
+          <p className="txt-2"><span>Welcome to Coding Juntion.</span></p>
+        <div className="train-logo">
+          <img src={require('../../Assets/Logo/vector.png')} alt="Photu" />
+        </div>
+        <p className="txt-3">
+            <ul></ul>
+            <li>Get.</li>
+            <li>Set.</li>
+            <li>Code.</li>
+          </p>
+      </div>
       </div>
       </div>
     )
