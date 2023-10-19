@@ -14,7 +14,7 @@ export default function AboutUs() {
             Our mission is to provide a supportive and collaborative environment where students can learn and grow as coders. We are committed to building a diverse and inclusive coding community at our college. We welcome students of all skill levels and backgrounds to join us. Whether you are a complete beginner or an experienced coder, we have a place for you in our community.
           </p>
           <div className='aboutus-more-container'>
-            <Link to='/underConstruction'>
+            <Link to='/about-us-more'>
               <button>VIEW MORE</button>
             </Link>
           </div>
@@ -32,7 +32,7 @@ export default function AboutUs() {
             Our mission is to provide a supportive and collaborative environment where students can learn and grow as coders. We are committed to building a diverse and inclusive coding community at our college. We welcome students of all skill levels and backgrounds to join us. Whether you are a complete beginner or an experienced coder, we have a place for you in our community.
           </p>
           <div className='aboutus-more-container'>
-            <Link to='/underConstruction'>
+            <Link to='/about-us-more'>
               <button>VIEW MORE</button>
             </Link>
           </div>
