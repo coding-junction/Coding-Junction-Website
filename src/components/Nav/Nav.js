@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from 'react-icons/hi';
 import { IoMdClose } from "react-icons/io";
@@ -31,17 +31,17 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/team'>
               <button>OUR TEAM</button>
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/contact-us'>
               <button>CONTACT US</button>
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/register'>
               <button className="register-btn">REGISTER</button>
             </Link>
           </li>
