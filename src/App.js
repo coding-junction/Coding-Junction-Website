@@ -33,7 +33,6 @@ function App() {
             } />
             <Route path = "/underConstruction" element={
               <UnderBuild />
-              <UnderBuild />
             } />
             <Route path = "/login" element={
               <Login />
