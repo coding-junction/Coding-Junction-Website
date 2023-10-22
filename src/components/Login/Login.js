@@ -1,7 +1,15 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
+
 
 export default function Login(){
+
+  const [showLoginCard, setShowLoginCard] = useState(true);
+
+  const handleRemoveLoginCard = () => {
+    setShowLoginCard(false);
+  };
     return(
       <div className="login-container">
         <div className="login-bg">
@@ -26,13 +34,17 @@ export default function Login(){
               required
             />
           </div>
-          <button className="logButt" type="submit">Login</button>
+          <Link to='/underConstruction'><button className="logButt" type="submit">Login</button></Link>
         </form>
       </div>
-      <div className="login-card">
+      {
+      showLoginCard 
+      &&
+        <div className="login-card">
         <h1 className="txt-1">Hello there.</h1>
-          <p className="txt-2"><span>Welcome to Coding Juntion.</span></p>
-        <div className="train-logo">
+          <p className="txt-2"><span>Welcome to Coding Juntion</span></p>
+        <div className="logoo">
+          <button className="cross" onClick={handleRemoveLoginCard}>&times;</button>
           <img src={require('../../Assets/Logo/vector.png')} alt="Photu" />
         </div>
         <p className="txt-3">
@@ -42,7 +54,8 @@ export default function Login(){
             <li>Code.</li>
           </p>
       </div>
-      </div>
+      }
+        </div>
       </div>
     )
 }
