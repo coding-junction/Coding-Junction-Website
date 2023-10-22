@@ -28,7 +28,6 @@ function App() {
                 <AboutUs />
                 <ProjDom />
                 <Gallery/>
-                <Gallery/>
               </>
             } />
             <Route path = "/underConstruction" element={
@@ -52,26 +51,6 @@ function App() {
             <Route path = "/contact-us" element={
               <UnderBuild />
             }/>
-            
-            <Route path = "/login" element={
-              <Login />
-            } />
-            <Route path = "/register" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/download-app" element={
-              <DownApp />
-            } />
-            <Route path = "/about-us-more" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/team" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/contact-us" element={
-              <UnderBuild />
-            }/>
-            
           </Routes>
         <Footer />
       </BrowserRouter>
