@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 
 
 export default function Login(){
+  window.scrollTo(0,0);
 
   const [showLoginCard, setShowLoginCard] = useState(true);
 
   const handleRemoveLoginCard = () => {
     setShowLoginCard(false);
   };
+
     return(
       <div className="login-container">
         <div className="login-bg">
