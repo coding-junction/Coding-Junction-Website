@@ -3,6 +3,8 @@ import './DownApp.css'
 import Features from './Features/Features'
 
 export default function DownApp() {
+
+    window.scrollTo(0,0);
     const featuresArr = [
         {
             key: 1,
