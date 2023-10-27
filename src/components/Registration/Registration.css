@@ -1,0 +1,18 @@
+.register-container{
+    /* background-color:  #101528b9; */
+    height: 115vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.register-bg{
+    height: 90vh;
+    width: 30vw;
+    background-color: black;
+} 
+.register{
+    display: grid;
+    place-items: center;
+}
+
+@medis

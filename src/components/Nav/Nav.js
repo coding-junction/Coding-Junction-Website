@@ -37,7 +37,7 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/register'>
               <button className="register-btn">REGISTER</button>
             </Link>
           </li>
@@ -80,7 +80,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/underConstruction'>
+                  <Link to='/register'>
                     <button className="register-btn">REGISTER</button>
                   </Link>
                 </li>
