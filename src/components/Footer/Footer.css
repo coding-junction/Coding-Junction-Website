@@ -125,6 +125,19 @@
     font-weight: 100;
 }
 
+.archive{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.archive button{
+    background-color: #00000000;
+    border: none;
+    color: #a3dae0;
+    border-bottom: 1px solid #a3dae0;
+}
+
 @media only screen and (max-width: 850px){
     .footer{
         flex-direction: column;
