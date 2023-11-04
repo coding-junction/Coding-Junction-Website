@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Gallery from './components/Gallery/Gallery';
 import DownApp from './components/DownApp/DownApp';
+import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
 
 function App() {
@@ -51,6 +52,9 @@ function App() {
             }/>
             <Route path = "/contact-us" element={
               <UnderBuild />
+            }/>
+            <Route path = "/archives" element={
+              <Archive />
             }/>
           </Routes>
         <Footer />
