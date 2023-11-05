@@ -1,9 +1,10 @@
 import React from 'react'
 import AnimatedCursor from 'react-animated-cursor'
+import './WebCursor.css'
 
 export default function WebCursor() {
   return (
-    <div>
+    <div className="cursor">
       <AnimatedCursor 
         innerSize={8}
         outerSize={35}

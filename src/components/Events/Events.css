@@ -1,0 +1,58 @@
+.Events {
+    height: auto;
+    padding: 2rem;
+}
+
+.events-head {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.events-head h1{
+    padding: 1rem 4rem;
+    border-bottom: 2px solid #a3dae0;
+    margin-bottom: 2rem;
+}
+
+.events-container{
+    margin-top: 2rem;
+    height: fit-content;
+    width: 100%;
+    /* background-color: white; */
+    border: 2px solid #a3dae0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.events-container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 850px){
+    .Events{
+        padding: 2rem;
+    }
+    .events-head{
+        padding: 0.5rem 0;
+        font-size: 1.5rem;
+        border: none;
+    }
+    .events-head h1{
+        padding: 1rem 0rem;
+        /* background-color: red; */
+        border-bottom: 2px solid #a3dae0;
+    }
+    .events-container{
+        height: 50vh;
+    }
+    .events-container img{
+        content: url("../../Assets/Images/intro-eve-banner-phone.png");
+        height: 100%;
+        object-fit: cover;
+    }
+}
