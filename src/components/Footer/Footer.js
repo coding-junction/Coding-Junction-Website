@@ -22,6 +22,7 @@ export default function Footer() {
             <h3>Coding Junction</h3>
             <p>A club by Students of UIT-BU.</p>
             <p>Copyright &copy; 2023</p>
+            <p style={{ margin:"auto", marginTop: "1rem", padding: "auto"}}>Made with <span style={{color: "red"}}>&#10084;</span> from Coding Junction Members</p>
         </div>
         <div className='footer-soc'>
           <p className='footer-text-socials'>Connect with Us</p>

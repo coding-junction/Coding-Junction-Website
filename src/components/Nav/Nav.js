@@ -76,7 +76,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/underConstruction'>
+                  <Link to='/team'>
                     <button onClick={hideMenu}>OUR TEAM</button>
                   </Link>
                 </li>
