@@ -1,7 +1,11 @@
 .Team{
-    height: 100vh;
+    height: auto;
     margin: 2rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .team-title{
@@ -15,4 +19,219 @@
     padding: 1rem 4rem;
     border-bottom: 2px solid #a3dae0;
     margin-bottom: 2rem;
+}
+
+.team-members{
+    height: 100vh;
+    width: auto;
+    /* border: 1px solid #a3dae0; */
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-circle{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    position: relative;
+}
+
+.t-inner-circle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #a3dae0;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(300px);
+    opacity: 80%;
+    transition: all 0.3s ease-in-out;
+}
+.t-inner-circle:hover{
+    border-color: red;
+    opacity: 100%;
+    border-width: 3px;
+}
+
+.t-inner-circle img{
+    object-fit: cover;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-radius: 50%;
+}
+
+.t-inner-circle:nth-child(1){
+    rotate: 0;
+}
+.t-inner-circle:nth-child(1) img{
+    rotate: 0deg;
+}
+
+.t-inner-circle:nth-child(2){
+    rotate: calc(360deg/15);
+}
+.t-inner-circle:nth-child(2) img{
+    rotate: -24deg;
+}
+
+.t-inner-circle:nth-child(3){
+    rotate: calc(2*360deg/15);
+}
+.t-inner-circle:nth-child(3) img{
+    rotate: -48deg;
+}
+
+.t-inner-circle:nth-child(4){
+    rotate: calc(3*360deg/15);
+}
+.t-inner-circle:nth-child(4) img{
+    rotate: -72deg;
+}
+
+.t-inner-circle:nth-child(5){
+    rotate: calc(4*360deg/15);
+}
+.t-inner-circle:nth-child(5) img{
+    rotate: -96deg;
+}
+
+.t-inner-circle:nth-child(6){
+    rotate: calc(5*360deg/15);
+}
+.t-inner-circle:nth-child(6) img{
+    rotate: -120deg;
+}
+
+.t-inner-circle:nth-child(7){
+    rotate: calc(6*360deg/15);
+}
+.t-inner-circle:nth-child(7) img{
+    rotate: -144deg;
+}
+
+.t-inner-circle:nth-child(8){
+    rotate: calc(7*360deg/15);
+}
+.t-inner-circle:nth-child(8) img{
+    rotate: -168deg;
+}
+
+.t-inner-circle:nth-child(9){
+    rotate: calc(8*360deg/15);
+}
+.t-inner-circle:nth-child(9) img{
+    rotate: -192deg;
+}
+
+.t-inner-circle:nth-child(10){
+    rotate: calc(9*360deg/15);
+}
+.t-inner-circle:nth-child(10) img{
+    rotate: -216deg;
+}
+
+.t-inner-circle:nth-child(11){
+    rotate: calc(10*360deg/15);
+}
+.t-inner-circle:nth-child(11) img{
+    rotate: -240deg;
+}
+
+.t-inner-circle:nth-child(12){
+    rotate: calc(11*360deg/15);
+}
+.t-inner-circle:nth-child(12) img{
+    rotate: -264deg;
+}
+
+.t-inner-circle:nth-child(13){
+    rotate: calc(12*360deg/15);
+}
+.t-inner-circle:nth-child(13) img{
+    rotate: -288deg;
+}
+
+.t-inner-circle:nth-child(14){
+    rotate: calc(13*360deg/15);
+}
+.t-inner-circle:nth-child(14) img{
+    rotate: -312deg;
+}
+
+.t-inner-circle:nth-child(15){
+    rotate: calc(14*360deg/15);
+}
+.t-inner-circle:nth-child(15) img{
+    rotate: -336deg;
+}
+
+.t-ring-1{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    left: calc(50% - 225px);
+    top: calc(50% - 225px);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 255, 0) rgba(0, 0, 0, 0);
+    animation: rotate infinite linear 3.5s;
+}
+
+.t-ring-2{
+    position: absolute;
+    left: calc(50% - 190px);
+    top: calc(50% - 190px);
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0) rgb(255, 0, 0) ;
+    animation: rotate-ac infinite linear 4s;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-ac{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+.teams-not-available{
+    display: none;
+}
+
+@media only screen and (max-width: 850px){
+    .Team{
+        padding: 2rem 0.4rem;
+    }
+    .team-title h1{
+        padding: 0.5rem 2rem;
+        font-size: 2rem;
+    }
+    .team-members{
+        display: none;
+    }
+    .teams-not-available{
+        display: contents;
+    }
 }

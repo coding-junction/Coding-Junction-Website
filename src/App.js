@@ -14,6 +14,7 @@ import Gallery from './components/Gallery/Gallery';
 import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
+import Events from './components/Events/Events';
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
             <Route path = "/" element={
               <>
                 <Landing />
+                <Events />
                 <AboutUs />
                 <ProjDom />
                 <Gallery/>
@@ -48,7 +50,7 @@ function App() {
               <UnderBuild />
             }/>
             <Route path = "/team" element={
-              <UnderBuild />
+              <Team />
             }/>
             <Route path = "/contact-us" element={
               <UnderBuild />
