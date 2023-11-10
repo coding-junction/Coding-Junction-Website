@@ -1,5 +1,7 @@
 import React from "react";
 import "./Registration.css";
+import { Link } from "react-router-dom";
+
 export default function Registration()
 {
     return(
@@ -7,19 +9,19 @@ export default function Registration()
       <div className="register-container">
          <div className="register-bg">
           <div className="register">
-        <h1 className="reg-txt">Registration Form</h1>
+        <h1 className="reg-txt">Registration</h1>
         <form action="#" className="form">
           <div className="input-box">
-            <lable>Full Name</lable>
+            <label>Full Name</label>
             <input type="text" placeholder="Enter full name" required/>
           </div>
 
            <div className="input-box">
-            <lable>Email id</lable>
+            <label>Email id</label>
             <input type="text" placeholder="Enter Email id" required/>
           </div>
             <div className="input-box">
-            <lable>Whatsapp No</lable>
+            <label>Whatsapp No</label>
             <input type="number" placeholder="Enter Whatsapp no" required/>
             </div> 
 
@@ -46,7 +48,7 @@ export default function Registration()
           </div>
           
             <div className="input-box">
-            <lable>Roll no</lable>
+            <label>Roll no</label>
             <input type="text" placeholder="Enter roll no" required/>
              </div>
 
@@ -81,10 +83,10 @@ export default function Registration()
             </div>
           </div>
             <div className="input-box">
-            <lable>About you</lable>
-            <input type="text"/>
+            <label>About you</label>
+            <input id="abt-u" type="text"/>
              </div>
-          <button>Register</button>
+            <Link to='/underConstruction'><button className="reg-but" type="submit">Register</button></Link> 
         </form>
           </div>
           </div>
