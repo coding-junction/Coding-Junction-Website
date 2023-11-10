@@ -10,10 +10,14 @@ import UnderBuild from './components/UnderBuild/UnderBuild'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
-import Registration from './components/Registration/Registration';
 import Gallery from './components/Gallery/Gallery';
+import DownApp from './components/DownApp/DownApp';
+import Team from './components/Team/Team';
+import Registration from './components/Registration/Registration';
+
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
@@ -30,12 +34,26 @@ function App() {
               </>
             } />
             <Route path = "/underConstruction" element={
-              <UnderBuild/>
+              <UnderBuild />
             } />
             <Route path="/login" element={
               <Login />} />
              <Route path="/register" element={
               <Registration />} />
+      
+      
+             <Route path = "/download-app" element={
+              <DownApp />
+            } />
+            <Route path = "/about-us-more" element={
+              <UnderBuild />
+            }/>
+            <Route path = "/team" element={
+              <UnderBuild />
+            }/>
+            <Route path = "/contact-us" element={
+              <UnderBuild />
+            }/>
           </Routes>
         <Footer />
       </BrowserRouter>

@@ -3,6 +3,7 @@ import React from 'react';
 import "./Landing.css";
 
 export default function Welcome() {
+  window.scrollTo(0,0);
   return (
     <div className='landing'>
       <div className='intro'>

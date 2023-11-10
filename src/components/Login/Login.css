@@ -1,8 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 .login-container{
     height: 115vh;
     width: 100vw;
@@ -23,7 +18,7 @@
     top: 15%;
     left: 5%;
     height: 60vh;
-    width: 860px;
+    width: 44.8vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -34,12 +29,15 @@
     backdrop-filter: blur(10px);
     box-shadow: 8px 6px 50px rgba(0, 0, 0, 0.648);
 }
+.login form{
+    position: relative;
+}
 .form-group{
     display: grid;
     text-decoration: none;
     background-color: transparent;
 }
-input{
+.form-group input{
     background-color: transparent;
     border: none;
     outline: none;
@@ -78,7 +76,7 @@ input{
     border-radius: 10px;
     box-shadow: 5px 5px 100px rgba(0, 0, 0, 0.588);
 } 
-.train-logo img{
+.logoo img{
     width: 400px;
     height: auto;
     position: absolute;
@@ -93,7 +91,7 @@ input{
     font-size: 4rem;
     position: absolute;
     left: 10%;
-    top: 12%;
+    top: 8%;
     width: max-content;
 }
 
@@ -104,7 +102,7 @@ input{
     width: max-content;
     position: absolute;
         left: 10%;
-        top: 23%;
+        top: 18%;
 }
 
 .txt-3{
@@ -113,6 +111,76 @@ input{
     list-style: none;
     position: absolute;
     left: 65%;
-    top: 40%;
+    top: 45%;
     color: grey;
+}
+
+.cross{
+    position: absolute;
+    left: 96%;
+    background-color: rgba(184, 5, 5, 0.973);
+    display: none;
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 850px) {
+    .login-bg {
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .login {
+        padding: 0;
+        top: 10%;
+        left: 2.4%;
+        width: 85vw;
+        align-items: center;
+    }
+
+    .txt-1 {
+        font-size: 3rem;
+    }
+
+    .txt-2 {
+        font-size: 1.5rem;
+    }
+
+    .txt-3 {
+        font-size: 1.8rem;
+        left: 50%;
+        top:30%;
+        transform: translateX(-50%);
+    }
+
+    .logoo img{
+        top: 50%;
+        right: 10%;
+        width: 90vw;
+    }
+
+    .form-group input{
+        width: 35vw;
+    }
+
+    .login-card{
+        position: absolute;
+        top: 5%;
+        height: 70vh;
+        left: 5%;
+        width: 80vw;
+    }
+
+    .login form{
+        position: absolute;
+        top:61%;
+    }
+    .log-txt{
+        padding-bottom: 200px;
+    }
+
+    .cross{
+        display: block;
+    }
 }
