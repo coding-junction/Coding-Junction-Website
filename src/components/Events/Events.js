@@ -8,7 +8,7 @@ function Events() {
             <h1>Upcoming Events</h1>
         </div>
         <div className="events-container">
-            <img src={require("../../Assets/Images/intro-eve-banner.png")} alt="event-banner" />
+            <img src={require("../../Assets/Images/intro-eve-banner2.png")} alt="event-banner" />
         </div>
     </div>
   )
