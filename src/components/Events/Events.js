@@ -10,6 +10,9 @@ function Events() {
         <div className="events-container">
             <img src={require("../../Assets/Images/intro-eve-banner2.png")} alt="event-banner" />
         </div>
+        <div className="events-link-button">
+            <button>Join Event</button>
+        </div>
     </div>
   )
 }

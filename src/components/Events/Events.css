@@ -33,6 +33,22 @@
     border-radius: 15px;
 }
 
+.events-link-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.events-link-button button{
+    padding: 1rem 5rem;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+}
+
 @media only screen and (max-width: 850px){
     .Events{
         padding: 2rem;
