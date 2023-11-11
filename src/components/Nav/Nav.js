@@ -16,7 +16,9 @@ export default function Nav() {
     <>
     <div className="nav">
       <div className="logo">
-        <img src={require("../../Assets/Logo/club-logo-2.png")} />
+        <Link to="/">
+          <img src={require("../../Assets/Logo/club-logo-2.png")} />
+        </Link>
       </div>
       <div className="nav-buttons">
         <ul>
