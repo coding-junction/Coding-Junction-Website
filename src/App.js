@@ -15,6 +15,7 @@ import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
 import Events from './components/Events/Events';
+import IntroSess from './components/Events/IntroSess/IntroSess';
 
 function App() {
   
@@ -57,6 +58,9 @@ function App() {
             }/>
             <Route path = "/archives" element={
               <Archive />
+            }/>
+            <Route path="/introductory-session" element={
+              <IntroSess />
             }/>
           </Routes>
         <Footer />

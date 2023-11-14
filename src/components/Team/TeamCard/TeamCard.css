@@ -49,6 +49,7 @@
 }
 
 .t-card-social-button{
+    cursor: none;
     font-size: 2rem;
     color: #a3dae0;
     background: transparent;
