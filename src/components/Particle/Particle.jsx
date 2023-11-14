@@ -5,12 +5,12 @@ import "./Particle.css"
 export default function Particle() {
 
     const particlesInit = async (main) => {
-        console.log(main);
+        // console.log(main);
         await loadFull(main);
     };
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
         
     };
 

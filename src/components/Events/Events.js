@@ -1,5 +1,6 @@
 import React from 'react'
 import './Events.css'
+import { Link } from 'react-router-dom';
 
 function Events() {
   return (
@@ -11,7 +12,9 @@ function Events() {
             <img src={require("../../Assets/Images/intro-eve-banner2.png")} alt="event-banner" />
         </div>
         <div className="events-link-button">
-            <button>Join Event</button>
+            <Link to = "/introductory-session">
+              <button>Join Event</button>
+            </Link>
         </div>
     </div>
   )

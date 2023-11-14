@@ -1,6 +1,6 @@
 import React from 'react'
 import './Team.css'
-import json from './team.json'
+import json from './team6.json'
 import TeamCard from './TeamCard/TeamCard'
 import UnderBuild from '../UnderBuild/UnderBuild'
 import { useState } from 'react'
