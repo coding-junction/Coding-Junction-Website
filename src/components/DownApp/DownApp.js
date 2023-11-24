@@ -77,9 +77,9 @@ export default function DownApp() {
 
             <div className="da-download">
                 <a href="https://dl.dropboxusercontent.com/s/0zeznf2a5rvrs7x/release_coding_junction_VC_6.apk?dl=1">
-                <button>
-                    Download
-                </button>
+                    <button>
+                        Download
+                    </button>
                 </a>
             </div>
         </div>

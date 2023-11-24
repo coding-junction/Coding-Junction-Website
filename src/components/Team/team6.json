@@ -1,0 +1,139 @@
+{
+  "teamArray": [
+    {
+      "key": 1,
+      "name": "Raja Bhandari",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949947/MEM/WhatsApp_Image_2023-11-14_at_12.31.41_6bf42805_vye8ys.jpg",
+      "li": "https://www.linkedin.com/in/raja-bhandari/",
+      "gh": "https://github.com/IamRaja007",
+      "fb": "https://www.facebook.com/raja.bhandari.007/",
+      "ig": "https://www.instagram.com/i_m_raja88/"
+    },
+    {
+      "key": 2,
+      "name": "Aditya Gupta ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949948/MEM/WhatsApp_Image_2023-11-14_at_12.45.18_c27ed285_xfnj10.jpg",
+      "li": "https://www.linkedin.com/in/aditya-gupta-036b1a211",
+      "gh": "https://github.com/Adi-1904",
+      "fb": "https://www.facebook.com/profile.php?id=100011467784285",
+      "ig": "https://instagram.com/aditya_gupta1904?igshid=Mmxrd2FpNXZkM2ky"
+    },
+    {
+      "key": 3,
+      "name": "Saptyadeep Bhattacharjee ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699952531/MEM/WhatsApp_Image_2023-11-14_at_13.58.58_df9551ea_tbtsi0.jpg",
+      "li": "https://www.linkedin.com/in/saptyadeep-bhattacharjee-247a58202/",
+      "gh": "https://github.com/bsaptyadeep",
+      "fb": "#",
+      "ig": "https://www.instagram.com/saptyadeep/"
+    },
+    {
+      "key": 4,
+      "name": "Sohom Chowdhury ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949969/MEM/WhatsApp_Image_2023-11-14_at_12.47.46_198d0add_cw0sbs.jpg",
+      "li": "https://www.linkedin.com/in/sitsmesohom",
+      "gh": "https://github.com/Sitsmesohom",
+      "fb": "https://www.facebook.com/sitsmesohom",
+      "ig": "https://instagram.com/sitsme_sohom"
+    },
+    {
+      "key": 5,
+      "name": "Arpita Kar",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949956/MEM/WhatsApp_Image_2023-11-14_at_13.17.29_cee43761_gicjlo.jpg",
+      "li": "https://www.linkedin.com/in/arpita-kar-120ab625b",
+      "gh": "https://github.com/arpitakar999",
+      "fb": "https://www.facebook.com/profile.php?id=100082072877383&mibextid=ViGcVu",
+      "ig": "https://instagram.com/artistic_mind1234?igshid=OGQ5ZDc2ODk2ZA=="
+    },
+    {
+      "key": 6,
+      "name": "Aayush Chatterjee ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949955/MEM/WhatsApp_Image_2023-11-14_at_13.25.04_2a6f38d0_oubolb.jpg",
+      "li": "https://www.linkedin.com/in/aayush-chatterjee-073077248",
+      "gh": "https://github.com/aayush8421",
+      "fb": "https://www.facebook.com/aayush1357",
+      "ig": "https://instagram.com/aayush__chatterjee"
+    },
+    {
+      "key": 7,
+      "name": "Pranay Pal",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949959/MEM/WhatsApp_Image_2023-11-14_at_13.41.39_b987ee8b_sql49p.jpg",
+      "li": "https://www.linkedin.com/in/pranaypal/",
+      "gh": "https://github.com/Pranay-Pal",
+      "fb": "https://www.facebook.com/profile.php?id=100072158786388",
+      "ig": "https://www.instagram.com/pny1cl/"
+    },
+    {
+      "key": 8,
+      "name": "Ayush Jalan ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949954/MEM/WhatsApp_Image_2023-11-14_at_12.25.21_11d63597_or02lk.jpg",
+      "li": "https://www.linkedin.com/in/ayush-jalan",
+      "gh": "https://github.com/The15thSin",
+      "fb": "https://www.facebook.com/ayush.jalan.376",
+      "ig": "https://instagram.com/ayush_404_not_found"
+    },
+    {
+      "key": 9,
+      "name": "Dona Murmu ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949949/MEM/WhatsApp_Image_2023-11-14_at_12.46.21_2bbbf7a0_tg6ixz.jpg",
+      "li": "https://www.linkedin.com/in/dona-murmu-733b9a187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "gh": "https://github.com/Dona4449",
+      "fb": "#",
+      "ig": "https://instagram.com/pickledchocolate?utm_source=qr&igshid=MThlNWY1MzQwNA=="
+    },
+    {
+      "key": 10,
+      "name": "Souvik Sural ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949950/MEM/WhatsApp_Image_2023-11-14_at_12.32.27_c62b847a_gmlazs.jpg",
+      "li": "https://www.linkedin.com/in/souvik-sural-1abba3227",
+      "gh": "https://github.com/Souvik34",
+      "fb": "#",
+      "ig": "https://instagram.com/souvik__38"
+    },
+    {
+      "key": 11,
+      "name": "Biswarup Naha ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949948/MEM/WhatsApp_Image_2023-11-14_at_12.39.29_e74f9acd_rfrda7.jpg",
+      "li": "https://www.linkedin.com/in/biswarup-naha-1a3aa4137/",
+      "gh": "https://github.com/biswarup-naha",
+      "fb": "https://www.facebook.com/maxres.2734",
+      "ig": "https://www.instagram.com/earthface.exe/"
+    },
+    {
+      "key": 12,
+      "name": "Dipa Ghosh ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949960/MEM/WhatsApp_Image_2023-11-14_at_13.27.44_d65b6a19_jvg4f5.jpg",
+      "li": "https://www.linkedin.com/in/dipa-ghosh-122041266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "gh": "https://github.com/dipa-ghosh11",
+      "fb": "https://www.facebook.com/profile.php?id=100071373083666&mibextid=ZbWKwL",
+      "ig": "https://instagram.com/ghoshdipamana?igshid=MXBzb2E0YWRiNGUxdw=="
+    },
+    {
+      "key": 13,
+      "name": "Aayush Raj",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949968/MEM/WhatsApp_Image_2023-11-14_at_12.53.25_009cad12_ms9pts.jpg",
+      "li": "#",
+      "gh": "#",
+      "fb": "#",
+      "ig": "#"
+    },
+    {
+      "key": 14,
+      "name": "Sourav Karmakar ",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699952531/MEM/WhatsApp_Image_2023-11-14_at_14.28.40_8c0fad8c_v7fxap.jpg",
+      "li": "https://www.linkedin.com/in/sourav-karmakar-51654823b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "gh": "#",
+      "fb": "#",
+      "ig": "#"
+    },
+    {
+      "key": 15,
+      "name": "Soumajith Das",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949954/MEM/WhatsApp_Image_2023-11-14_at_12.57.52_5bf69fc0_wksjfx.jpg",
+      "li": "#",
+      "gh": "#",
+      "fb": "#",
+      "ig": "#"
+    }
+  ]
+}
