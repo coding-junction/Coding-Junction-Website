@@ -18,7 +18,7 @@ export default function Registration()
 
            <div className="input-box">
             <label>Email id</label>
-            <input type="text" placeholder="Enter Email id" required/>
+            <input type="email" placeholder="Enter Email id" required/>
           </div>
             <div className="input-box">
             <label>Whatsapp No</label>
@@ -27,16 +27,19 @@ export default function Registration()
 
           <div className="column">
           <div className="select-box">
-            <select>
+            <div className="sb-yr">
+            <select className="op">
               <option hidden>Year</option>
               <option>First</option>
               <option>Second</option>
               <option>Third</option>
               <option>Forth</option>
             </select>
+            </div>
           </div>
           <div className="select-box">
-            <select>
+            <div className="sb-br">
+            <select className="op">
               <option hidden>Stream</option>
               <option>IT</option>
               <option>ECE</option>
@@ -44,6 +47,7 @@ export default function Registration()
               <option>CE</option>
               <option>CSE</option>
             </select>
+            </div>
           </div>
           </div>
           
@@ -53,23 +57,24 @@ export default function Registration()
              </div>
 
           <div className="gender-box">
-            <h3>Gender</h3>
+            <label>Gender</label>
             <div className="gender-option">
               <div className="gender">
                 <input type="radio" id="check-male" name="gender" checked/>
-                <label for="check-male">Male</label>
+                <label for="check-male">  Male</label>
               </div>
                <div className="gender">
                 <input type="radio" id="check-female" name="gender"/>
-                <label for="check-female">Female</label>
+                <label for="check-female">  Female</label>
               </div>
                <div className="gender">
                 <input type="radio" id="check-other" name="gender"/>
-                <label for="check-other">Prefer not to say</label>
+                <label for="check-other">  Prefer not to say</label>
               </div>
             </div>
           </div>
-          <div className="cr-className">
+
+          {/* <div className="cr-className">
             <h3>Are you CR of the class?</h3>
             <div className="option">
               <div className="cr">
@@ -81,14 +86,30 @@ export default function Registration()
                   <label for="check-no">No</label>
               </div>
             </div>
+          </div> */}
+
+            {/* <div className="input-box">
+              <div className="ip-abt">
+                <label>About you</label>
+                <input id="abt-u" type="text"/>
+              </div>
+             </div> */}
+
+             
+           <div className="input-box">
+            <label>Set Password</label>
+            <input type="text" placeholder="Enter password" required/>
           </div>
-            <div className="input-box">
-            <label>About you</label>
-            <input id="abt-u" type="text"/>
-             </div>
+
+          
+           <div className="input-box">
+            <label>Confirm Password</label>
+            <input type="text" placeholder="Re-enter password" required/>
+          </div>
             <Link to='/underConstruction'><button className="reg-but" type="submit">Register</button></Link> 
         </form>
           </div>
+          <p className="txt"> Already have account? <a href="/login">login</a> here</p>
           </div>
       </div>
     )

@@ -16,7 +16,7 @@ export default function Nav() {
     <>
     <div className="nav">
       <div className="logo">
-        <img src={require("../../Assets/Logo/club-logo.png")} />
+        <img src={require("../../Assets/Logo/club-logo-2.png")} />
       </div>
       <div className="nav-buttons">
         <ul>
@@ -77,7 +77,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/underConstruction'>
+                  <Link to='/team'>
                     <button onClick={hideMenu}>OUR TEAM</button>
                   </Link>
                 </li>

@@ -13,7 +13,7 @@
 }
 
 .logo{
-    height: 70%;
+    height: 90%;
     width: auto;
 }
 
@@ -71,7 +71,7 @@
         height: 4rem;
     }
     .logo{
-        height: 40%;
+        height: 60%;
     }
     .nav-buttons ul{
         display: none;

@@ -4,6 +4,7 @@ import { IconContext } from 'react-icons'
 import { CiFacebook, CiInstagram, CiLinkedin, CiYoutube } from 'react-icons/ci'
 import { BiLogoDiscordAlt } from 'react-icons/bi'
 import { DiGithubBadge } from 'react-icons/di'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -17,10 +18,11 @@ export default function Footer() {
           </form>
         </div>
         <div className='footer-cj'>
-            <img src={require('../../Assets/Logo/club-logo.png')} alt="" />
+            <img src={require('../../Assets/Logo/club-logo-2.png')} alt="club-logo" />
             <h3>Coding Junction</h3>
             <p>A club by Students of UIT-BU.</p>
             <p>Copyright &copy; 2023</p>
+            <p style={{ margin:"auto", marginTop: "1rem", padding: "auto"}}>Made with <span style={{color: "red"}}>&#10084;</span> from Coding Junction Members</p>
         </div>
         <div className='footer-soc'>
           <p className='footer-text-socials'>Connect with Us</p>
@@ -45,6 +47,11 @@ export default function Footer() {
                   <span><BiLogoDiscordAlt /></span>
                 </a>
               </IconContext.Provider>
+          </div>
+          <div className='archive'>
+            <Link to='/archives'>
+              <button>&gt;&gt; Archives</button>
+            </Link>
           </div>
         </div>
     </div>

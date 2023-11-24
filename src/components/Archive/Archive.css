@@ -1,0 +1,34 @@
+.Archive{
+    height: 70vh;
+    padding: 2rem;
+}
+
+.archive-title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.archive-title h1{
+    /* background: cyan; */
+    width: fit-content;
+    padding: 1rem 4rem;
+    border-bottom: 2px solid #a3dae0;
+    margin-bottom: 2rem;
+}
+.archive-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 850px){
+    .Archive{
+        padding: 2rem 0.4rem;
+    }
+    .archive-title h1{
+        padding: 0.5rem 2rem;
+        font-size: 2.2rem;
+    }
+}
