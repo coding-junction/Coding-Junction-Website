@@ -43,6 +43,7 @@ export default function Nav() {
             </Link>
           </li>
           <li>
+          
             <Link to='/register'>
               <button className="register-btn">REGISTER</button>
             </Link>
@@ -88,7 +89,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/underConstruction'>
+                  <Link to='/register'>
                     <button className="register-btn" onClick={hideMenu}>REGISTER</button>
                   </Link>
                 </li>

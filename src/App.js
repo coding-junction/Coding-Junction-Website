@@ -15,6 +15,8 @@ import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
 import Events from './components/Events/Events';
+import Registration from './components/Registration/Registration';
+
 import IntroSess from './components/Events/IntroSess/IntroSess';
 
 function App() {
@@ -38,13 +40,13 @@ function App() {
             <Route path = "/underConstruction" element={
               <UnderBuild />
             } />
-            <Route path = "/login" element={
-              <Login />
-            } />
-            <Route path = "/register" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/download-app" element={
+            <Route path="/login" element={
+              <Login />} />
+             <Route path="/register" element={
+              <Registration />} />
+      
+      
+             <Route path = "/download-app" element={
               <DownApp />
             } />
             <Route path = "/about-us-more" element={
