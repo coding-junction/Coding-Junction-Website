@@ -28,6 +28,11 @@ export default function Nav() {
             </Link>
           </li>
           <li>
+            <Link to='/underConstruction'>
+              <button>EVENTS</button>
+            </Link>
+          </li>
+          <li>
             <Link to='/download-app'>
               <button>APP</button>
             </Link>
@@ -71,6 +76,11 @@ export default function Nav() {
                 <li>
                   <Link to='/'>
                     <button onClick={hideMenu}>HOME</button>
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/underConstruction'>
+                    <button onClick={hideMenu}>EVENTS</button>
                   </Link>
                 </li>
                 <li>

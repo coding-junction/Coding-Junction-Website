@@ -64,10 +64,10 @@
         border-bottom: 2px solid #a3dae0;
     }
     .events-container{
-        height: 50vh;
+        height: auto;
     }
     .events-container img{
-        content: url("../../Assets/Images/intro-eve-banner-phone2.png");
+        content: url("../../Assets/Images/brain-battle-mob.jpg");
         height: 100%;
         object-fit: cover;
     }
