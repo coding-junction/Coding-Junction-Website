@@ -14,10 +14,8 @@ import Gallery from './components/Gallery/Gallery';
 import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
-import Events from './components/Events/Events';
 import Registration from './components/Registration/Registration';
-
-import IntroSess from './components/Events/IntroSess/IntroSess';
+import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 
 function App() {
   
@@ -31,7 +29,7 @@ function App() {
             <Route path = "/" element={
               <>
                 <Landing />
-                <Events />
+                <UpcomingEvents />
                 <AboutUs />
                 <ProjDom />
                 <Gallery/>
@@ -41,12 +39,12 @@ function App() {
               <UnderBuild />
             } />
             <Route path="/login" element={
-              <Login />} />
-             <Route path="/register" element={
-              <Registration />} />
-      
-      
-             <Route path = "/download-app" element={
+              <Login />
+            } />
+            <Route path="/register" element={
+              <Registration />
+            } />
+            <Route path = "/download-app" element={
               <DownApp />
             } />
             <Route path = "/about-us-more" element={
@@ -60,9 +58,6 @@ function App() {
             }/>
             <Route path = "/archives" element={
               <Archive />
-            }/>
-            <Route path="/introductory-session" element={
-              <IntroSess />
             }/>
           </Routes>
         <Footer />
