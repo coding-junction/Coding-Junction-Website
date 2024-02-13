@@ -16,6 +16,8 @@ import Archive from './components/Archive/Archive';
 import Team from './components/Team/Team';
 import Registration from './components/Registration/Registration';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
+import ViewUpcomingEve from './components/UpcomingEvents/ViewUpcomingEve/ViewUpcomingEve';
+import TQResponse from './components/UpcomingEvents/ViewUpcomingEve/TQResponse/TQResponse';
 
 function App() {
   
@@ -58,6 +60,12 @@ function App() {
             }/>
             <Route path = "/archives" element={
               <Archive />
+            }/>
+            <Route path = "/view-event" element={
+              <ViewUpcomingEve />
+            }/>
+            <Route path = "/thank-you-for-your-response" element={
+              <TQResponse />
             }/>
           </Routes>
         <Footer />

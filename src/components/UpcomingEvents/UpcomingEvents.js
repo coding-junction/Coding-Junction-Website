@@ -9,11 +9,11 @@ function UpcomingEvents() {
             <h1>Upcoming Events</h1>
         </div>
         <div className="events-container">
-            <img src={require("../../Assets/Images/brain-battle.jpg")} alt="event-banner" />
+            <img src={require("../../Assets/Images/uc.png")} alt="event-banner" />
         </div>
         <div className="events-link-button">
-            <Link to = "https://unstop.com/p/brain-battle-university-institute-of-technology-burdwan-university-835810?lb=kKUhd4v">
-              <button>Join Event</button>
+            <Link to = "/view-event">
+              <button>Register</button>
             </Link>
         </div>
     </div>
