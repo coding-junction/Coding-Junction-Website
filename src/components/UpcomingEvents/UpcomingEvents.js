@@ -6,13 +6,13 @@ function UpcomingEvents() {
   return (
     <div className='upcomingEvents'>
         <div className="events-head">
-            <h1>Upcoming Events</h1>
+            <h1>Upcoming Event</h1>
         </div>
         <div className="events-container">
-            <img src={require("../../Assets/Images/uc.png")} alt="event-banner" />
+            <img src={require("../../Assets/Images/web3_event.png")} alt="event-banner" />
         </div>
         <div className="events-link-button">
-            <Link to = "/view-event">
+            <Link to = "https://linktr.ee/konararitra72">
               <button>Register</button>
             </Link>
         </div>
