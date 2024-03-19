@@ -28,7 +28,7 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link to='/underConstruction'>
+            <Link to='/events'>
               <button>EVENTS</button>
             </Link>
           </li>
@@ -79,7 +79,7 @@ export default function Nav() {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/underConstruction'>
+                  <Link to='/events'>
                     <button onClick={hideMenu}>EVENTS</button>
                   </Link>
                 </li>

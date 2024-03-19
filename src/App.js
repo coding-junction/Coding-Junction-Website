@@ -13,6 +13,7 @@ import Login from './components/Login/Login';
 import Gallery from './components/Gallery/Gallery';
 import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
+import Events from './components/EventsPage/EventsPage';
 import Team from './components/Team/Team';
 import Registration from './components/Registration/Registration';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
@@ -39,6 +40,9 @@ function App() {
             } />
             <Route path = "/underConstruction" element={
               <UnderBuild />
+            } />
+            <Route path = "/events" element={
+              <Events />
             } />
             <Route path="/login" element={
               <Login />

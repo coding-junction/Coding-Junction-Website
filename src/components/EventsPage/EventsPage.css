@@ -1,0 +1,21 @@
+.EventsPage{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: rgb(99, 115, 178); */
+    margin: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.ep-head{
+    font-size: 7rem;
+    /* background: cyan; */
+    padding: 1rem 3rem;
+    font-weight: bold;
+    border-bottom: 2px solid #a3dae0;
+    vertical-align: middle;
+    /* padding: 5rem 0; */
+}
