@@ -9,10 +9,10 @@ function UpcomingEvents() {
             <h1>Upcoming Event</h1>
         </div>
         <div className="events-container">
-            <img src={require("../../Assets/Images/web3_event.png")} alt="event-banner" />
+            <img src={require("../../Assets/Images/Spont-saga.png")} alt="event-banner" />
         </div>
         <div className="events-link-button">
-            <Link to = "https://linktr.ee/konararitra72">
+            <Link to = "https://unstop.com/o/YdVXUfp?lb=kKUhd4v">
               <button>Register</button>
             </Link>
         </div>
