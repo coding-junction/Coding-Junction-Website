@@ -2,16 +2,775 @@
     "eventsArray": [
         {
             "key": 1,
-            "name": "",
+            "name": "Coding Junction Induction Event",
+            "doe": "17/11/2022",
+            "desc": "This is the first event organised by the Coding Junction Club. We welcome all the members to our new club. We are trying to build an active community of young coders with passion and energy for the Coding and Programming. We will provide a unique platform for all the brilliant minds and making their vision and belief into a success. This event is to reach to all the new comers and expand our new club.",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1710927719/CJ%20Website%20Event%20Images/tifcvhyk0mcrvs72xaz0.jpg",
+            "regLink": "",
+            "photosLink": [
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927907/CJ%20Website%20Event%20Images/gm16nlr28x7pcjljrhxi.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927909/CJ%20Website%20Event%20Images/uete2kgzjl8hwjwl22hz.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927908/CJ%20Website%20Event%20Images/q7wmdc6tiukzcc90m1zb.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927906/CJ%20Website%20Event%20Images/zoajsuqhfu6cw7iqjm1b.jpg"
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "Sparks Contest",
+            "doe" : "24/11/2020",
             "desc": "",
             "isLive": false,
-            "imgLink": "",
-            "doe": "",
+            "bannerLink": "",
             "regLink": "",
-            "photosLink": []
+            "photosLink": [
+
+            ],
+            "winners": ["Deedhiti Dingal (IT 2nd Year)", "Aman Singh (IT 1st Year)"]
         },
+
         {
-            
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "",
+            "doe" : "",
+            "desc": "",
+            "isLive": "",
+            "bannerLink": "",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
         }
     ]
 }
