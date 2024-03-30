@@ -1,0 +1,61 @@
+{
+    "eventsArray": [
+        {
+            "key": 1,
+            "name": "Coding Junction Induction Event",
+            "doe": "17/11/2022",
+            "desc": "This is the first event organised by the Coding Junction Club. We welcome all the members to our new club. We are trying to build an active community of young coders with passion and energy for the Coding and Programming. We will provide a unique platform for all the brilliant minds and making their vision and belief into a success. This event is to reach to all the new comers and expand our new club.",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1710927719/CJ%20Website%20Event%20Images/tifcvhyk0mcrvs72xaz0.jpg",
+            "regLink": "",
+            "photosLink": [
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927907/CJ%20Website%20Event%20Images/gm16nlr28x7pcjljrhxi.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927909/CJ%20Website%20Event%20Images/uete2kgzjl8hwjwl22hz.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927908/CJ%20Website%20Event%20Images/q7wmdc6tiukzcc90m1zb.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1710927906/CJ%20Website%20Event%20Images/zoajsuqhfu6cw7iqjm1b.jpg"
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 2,
+            "name": "Sparks Contest",
+            "doe" : "24/11/2020",
+            "desc": "1. Unleash and showcase your photos with the new sparks contest. 2. All notifications regarding the club in one spot. 3. Seamless interaction with club members. 4. Efficiently express opinions with polls.",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1711802035/CJ%20Website%20Event%20Images/WhatsApp_Image_2024-03-30_at_18.03.22_b18d587d_gmcs0q.jpg",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": ["Deedhiti Dingal (IT 2nd Year)", "Aman Singh (IT 1st Year)"]
+        },
+
+        {
+            "key": "3-11",
+            "name": "More events left to be listed",
+            "doe" : "na",
+            "desc": "na",
+            "isLive": false,
+            "bannerLink": "../../Assets/Images/uc.png",
+            "regLink": "",
+            "photosLink": [
+
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 12,
+            "name": "Introduction to Docker & K8 ",
+            "doe" : "31/03/2024",
+            "desc": "Dive into the world of containerization!  Our free Docker webinar is happening on March 31st, 7pm - 9pm. Learn how to build, ship, and run your apps anywhere. Register now (link in bio)! 1 more day to go... 🤩  #docker #webinar #devops #codingjunction",
+            "isLive": true,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1711801676/CJ%20Website%20Event%20Images/March_lc1zol.png",
+            "regLink": "https://bit.ly/k8smashers",
+            "photosLink": [
+            ],
+            "winners": []
+        }
+    ]
+}
