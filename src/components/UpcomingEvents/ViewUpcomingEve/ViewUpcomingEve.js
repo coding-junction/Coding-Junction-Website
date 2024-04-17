@@ -8,20 +8,20 @@ function ViewUpcomingEve() {
     window.scrollTo(0,0);
 
     const handleSubmit = () => {
-        setSubmitted(true)
         setIsLoading(true)
+        setSubmitted(true)
     }
 
     return (
         <div className='view-upcoming-eve'>
-            <div className='vue-head'>
-                <h1>
-                    Annual Member Inclusion Program
-                </h1>
-            </div>
             <div className="vue-container">
+                <div className='vue-head'>
+                    <h1>
+                        Annual Member Inclusion Program
+                    </h1>
+                </div>
                 <div className="vue-info">
-                    <p>The Coding Junction Club is excited to invite all 2nd-year students with a passion for coding to join our dynamic community as a Core Member. </p>
+                    <p>The Coding Junction Club is excited to invite all 2nd-year and 3rd-year students with a passion for coding to join our dynamic community as a Core Member. </p>
                     <p>&nbsp;</p>
                     <p>To express your interest and become a core member of the Coding Junction Club, please fill out the Inclusion Form below :</p>
                     <p>&nbsp;</p>
@@ -54,6 +54,16 @@ function ViewUpcomingEve() {
                                 Roll Number:
                             </label>
                             <input type="text" placeholder='Eg. 202XX0XX' name="entry.50030841" required/>
+                        </span>
+                        <span className='vue-fields'>
+                            <label htmlFor="entry.479711544" placeholder="Year" required>
+                                Year:
+                            </label>
+                            <select name="entry.479711544" id="Year" required>
+                                <option value="" selected disabled> Select your Year</option>
+                                <option value="2nd Year">2nd Year</option>
+                                <option value="3rd Year">3rd Year</option>
+                            </select>
                         </span>
                         <span className='vue-fields'>
                             <label htmlFor="entry.1935876832" placeholder="Department" required>

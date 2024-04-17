@@ -14,15 +14,33 @@ function UpcomingEvents() {
       {liveEvents.map(event => (
         <div key={event.key}>
           <div className="events-container">
-            <img src={event.bannerLink} alt="event-banner" />
-          </div>
-          <div className="events-link-button">
-            <Link to={event.regLink}>
-              <button>Register</button>
-            </Link>
+            <div className="ep-event-title-date">
+              <h2>
+                {event.key}. {event.name} 
+                <div className='ec-live-circle'></div>
+                <span className='ec-live'>Live</span>
+              </h2>
+              <p>
+                Date of the Event: {event.doe}
+              </p>
+            </div>
+            <div className="ep-event-banner">
+              <img src={event.bannerLink} alt={`Image of ${event.name}`} />
+            </div>
+            <div className="ep-event-desc">
+              <h3>Description:</h3>
+              <p>
+                {event.desc}
+              </p>
+            </div>
+            <div className="events-link-button">
+              <Link to='/view-event'>
+                <button>Register</button>
+              </Link>
+            </div>
           </div>
         </div>
-      ))} 
+      ))}
     </div>
   );
 }
