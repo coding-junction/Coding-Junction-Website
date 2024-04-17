@@ -15,11 +15,27 @@ function EventsPage() {
             </div>
 
             {
-                [...arr].reverse().map((event, index) => (
+                arr.slice().reverse().map((event, index) => (
                     <div key={index} className='ep-eventbox'>
                         <div className="ep-event-title-date">
                             <h2>
                                 {event.key}. {event.name}
+                                {
+                                    (event.isLive === true)?
+                                        <>
+                                            <div className='ec-live-circle'></div>
+                                            <span className='ec-live'>Live</span>
+                                        </>:<></>
+                                }
+                            </h2>
+                            <h2>
+                                {(event.isLive === true)?
+                                    <>
+                                        <div className='ec-live-circle-mob'></div>
+                                        <span className='ec-live-mob'>Live</span>
+                                    </>:
+                                    <></>
+                                }
                             </h2>
                             <p>
                                 Date of the Event: {event.doe}
@@ -36,19 +52,19 @@ function EventsPage() {
                         </div>
                         <div className="ep-event-photos">
                             {
-                                (event.photosLink.length !=0) ?
-                                <>
-                                    <h3>Gallery:</h3>
-                                    <span className='ep-ep-gc'>
-                                        {
-                                            event.photosLink.map((imageLink, idx) => (
-                                                <span key={idx} className='ep-ep-gi'>
-                                                    <img src={imageLink} alt={`Image ${idx}`} />
-                                                </span>
-                                            ))
-                                        }
-                                    </span>
-                                </>:<></>
+                                (event.photosLink.length != 0) ?
+                                    <>
+                                        <h3>Gallery:</h3>
+                                        <span className='ep-ep-gc'>
+                                            {
+                                                event.photosLink.map((imageLink, idx) => (
+                                                    <span key={idx} className='ep-ep-gi'>
+                                                        <img src={imageLink} alt={`Image ${idx}`} />
+                                                    </span>
+                                                ))
+                                            }
+                                        </span>
+                                    </> : <></>
                             }
                         </div>
                         {
@@ -69,15 +85,15 @@ function EventsPage() {
                                 </>
                         }
                         {
-                            (event.isLive === true)?
-                            <>
-                                <div className="events-link-button">
-                                    <Link to = {event.regLink}>
-                                        <button>Register</button>
-                                    </Link>
-                                </div>
-                            </>:
-                            <></>
+                            (event.isLive === true) ?
+                                <>
+                                    <div className="events-link-button">
+                                        <Link to={event.regLink}>
+                                            <button>Register</button>
+                                        </Link>
+                                    </div>
+                                </> :
+                                <></>
                         }
                     </div>
                 ))

@@ -9,37 +9,33 @@
     justify-content: center;
 }
 
-.events-head h1{
+.events-head h1 {
     padding: 1rem 4rem;
     border-bottom: 2px solid #a3dae0;
     margin-bottom: 2rem;
 }
 
-.events-container{
-    margin-top: 2rem;
+.events-container {
+    margin: 2rem auto 0 auto;
     height: fit-content;
-    width: 100%;
-    /* background-color: white; */
+    width: 80%;
     border: 2px solid #a3dae0;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 4px;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
 }
 
-.events-container img{
-    width: 100%;
-    border-radius: 15px;
-}
-
-.events-link-button{
+.events-link-button {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
 
-.events-link-button button{
+.events-link-button button {
     padding: 1rem 5rem;
     background-color: red;
     border: none;
@@ -49,26 +45,121 @@
     border-radius: 3rem;
 }
 
-@media only screen and (max-width: 850px){
-    .Events{
+.ec-live {
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, black, red, black);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: txt-pulse 1s ease-in-out infinite;
+    background-size: 400% 100%;
+    margin:10px;
+}
+
+@keyframes txt-pulse {
+    0%,100% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+.ec-live-circle {
+    background: #ff0000;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    animation: pulse-animation 1s ease-in-out infinite;
+    margin-left: 20px;
+}
+
+.ec-live-mob{
+    display: none;
+}
+
+.ec-live-circle-mob{
+    display: none;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.652);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .Events {
         padding: 2rem;
     }
-    .events-head{
+
+    .events-head {
         padding: 0.5rem 0;
         font-size: 1.5rem;
         border: none;
     }
-    .events-head h1{
+
+    .events-head h1 {
         padding: 1rem 0rem;
         /* background-color: red; */
         border-bottom: 2px solid #a3dae0;
     }
-    .events-container{
+
+    .events-container {
         height: auto;
     }
-    .events-container img{
-        content: url("../../Assets/Images/Spont-saga-mob.jpg");
+
+    .events-container img {
+        /* content: url("../../Assets/Images/Spont-saga-mob.jpg"); */
         height: 100%;
         object-fit: cover;
+    }
+    .ec-live {
+        display: none;
+    }
+    .ec-live-mob{
+        display: flex;
+        color: white;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to right, black, red, black);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: txt-pulse 1s ease-in-out infinite;
+        background-size: 400% 100%;
+        margin:10px;
+    }
+    .ec-live-circle {
+        display: none;
+    }
+    .ec-live-circle-mob{
+        display: flex;
+        background: #ff0000;
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        animation: pulse-animation 1s ease-in-out infinite;
+    }
+    .events-link-button {
+        margin-top: 0rem;
+    }
+    .events-link-button button {
+        padding: 0.5rem 3rem;
+        background-color: red;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border-radius: 3rem;
     }
 }

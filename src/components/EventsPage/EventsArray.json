@@ -50,10 +50,24 @@
             "name": "Introduction to Docker & K8 ",
             "doe" : "31/03/2024",
             "desc": "Dive into the world of containerization!  Our free Docker webinar is happening on March 31st, 7pm - 9pm. Learn how to build, ship, and run your apps anywhere. Register now (link in bio)! 1 more day to go... 🤩  #docker #webinar #devops #codingjunction",
-            "isLive": true,
+            "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1711801676/CJ%20Website%20Event%20Images/March_lc1zol.png",
             "regLink": "https://bit.ly/k8smashers",
             "photosLink": [
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 13,
+            "name": "Annual Member Inclusion Program",
+            "doe" : "18/04/2024",
+            "desc": "The Coding Junction Club is excited to invite all 2nd-year and 3rd-year students with a passion for coding to join our dynamic community as a Core Member. To express your interest and become a core member of the Coding Junction Club, please fill out the Inclusion Form by clicking below.",
+            "isLive": true,
+            "bannerLink": "../../Assets/Images/uc.png",
+            "regLink": "/view-event",
+            "photosLink": [
+
             ],
             "winners": []
         }
