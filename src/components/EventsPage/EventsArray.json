@@ -60,6 +60,19 @@
 
         {
             "key": 13,
+            "name": "Nordek event",
+            "doe" : "21/04/2024",
+            "desc": "lorem ipsum",
+            "isLive": true,
+            "bannerLink": "",
+            "regLink": "www.google.in",
+            "photosLink": [
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 14,
             "name": "Annual Member Inclusion Program",
             "doe" : "18/04/2024",
             "desc": "The Coding Junction Club is excited to invite all 2nd-year and 3rd-year students with a passion for coding to join our dynamic community as a Core Member. To express your interest and become a core member of the Coding Junction Club, please fill out the Inclusion Form by clicking below.",

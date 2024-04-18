@@ -32,7 +32,20 @@
 .TQResponse a{
     color: red;
     font-weight: bold;
+    align-self: center;
 }
+
+.TQResponse a button{
+    margin-top: 2rem;
+    align-self: center;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
 
 @media only screen and (max-width: 850px) {
     .TQResponse{
@@ -41,11 +54,18 @@
 
     .TQResponse h2{
         font-size: large;
+        text-align: center;
     }
 
     .TQResponse p{
-        text-align: justify;
+        text-align: center;
         padding: 1rem 0;
+    }
+
+    .TQResponse img{
+        width: 300px;
+        align-self: center;
+        padding: 2rem;
     }
 }
 
