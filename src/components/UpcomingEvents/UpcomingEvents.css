@@ -115,6 +115,7 @@
 
     .events-container {
         height: auto;
+        width: 100%;
     }
 
     .events-container img {
@@ -127,17 +128,12 @@
     }
     .ec-live-mob{
         display: flex;
-        color: white;
+        color: red;
         font-size: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(to right, black, red, black);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: txt-pulse 1s ease-in-out infinite;
-        background-size: 400% 100%;
-        margin:10px;
+        margin: 5px;
     }
     .ec-live-circle {
         display: none;

@@ -16,9 +16,18 @@ function UpcomingEvents() {
           <div className="events-container">
             <div className="ep-event-title-date">
               <h2>
-                {event.key}. {event.name} 
+                &#9733; {event.name}
                 <div className='ec-live-circle'></div>
                 <span className='ec-live'>Live</span>
+              </h2>
+              <h2>
+                {(event.isLive === true) ?
+                  <>
+                    <div className='ec-live-circle-mob'></div>
+                    <span className='ec-live-mob'>Live</span>
+                  </> :
+                  <></>
+                }
               </h2>
               <p>
                 Date of the Event: {event.doe}
