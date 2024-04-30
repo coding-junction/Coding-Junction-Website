@@ -43,7 +43,7 @@ function UpcomingEvents() {
               </p>
             </div>
             <div className="events-link-button">
-              <Link to='/view-event'>
+              <Link to={event.regLink}>
                 <button>Register</button>
               </Link>
             </div>
