@@ -98,11 +98,15 @@
             "name": "Unleashing Innovation with Hack4Bengal 3.0",
             "doe" : "04/06/2024",
             "desc": "🎉 Get ready to unleash your creativity and innovation at Hack4Bengal 3.0! 🎉 Join us on June 4, 2024, from 6:00 PM to 7:30 PM for an electrifying evening hosted by Coding Junction and the ever-inspiring Biswarup Naha. This isn't just another hackathon; it's a celebration of ideas, collaboration, and tech wizardry, all happening online so you can join the party from wherever you are! Register now through by clicking below button. 👇",
-            "isLive": true,
+            "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1717392166/WhatsApp_Image_2024-06-02_at_16.31.11_tal2dh.jpg",
             "regLink": "https://lu.ma/48djamdg",
             "photosLink": [
-
+                "https://drive.google.com/file/d/1xuQxAP59RqdIiUD0pNvqrCZtnGnJ1q4I/view?usp=sharing",
+                "https://drive.google.com/file/d/1xut_gPN9tqlJRbeXTsDbzi8R1CN7jPYr/view?usp=sharing",
+                "https://drive.google.com/file/d/1yBFUoeCevhhaSaaTF02cjokCT31Ck3QS/view?usp=sharing",
+                "https://drive.google.com/file/d/1yE2gF9zmO0opx9XGO7-aCmScm6eUgDuc/view?usp=sharing",
+                "https://drive.google.com/file/d/1yQ9ZCJzbSNzBoppKWC_hy_ETLlnXnfaY/view?usp=sharing",
             ],
             "winners": []
         }
