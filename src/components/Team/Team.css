@@ -40,21 +40,20 @@
 }
 
 .accordion-button{
-    color: rgb(1, 157, 255) !important;
-    background-color: #fffb00 !important;
+    background-color: rgb(150, 231, 227) !important;
     border-color: #007bff;
-}
-
-.a-header:hover{
-    background-color: #0056b3;
 }
 
 .a-des{
     color: rgb(4, 255, 192);
 }
 
-.accordion-button.a-header:not(.collapsed) {
-    background-color: #0056b3;
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff !important;
+}
+
+.accordion-body{
+    background-color:  rgb(255, 255, 255);
 }
 
 .header-content {

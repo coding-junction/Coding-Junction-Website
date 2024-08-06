@@ -20,9 +20,9 @@ export default function Team() {
                     gen.map((gen, i) => (
                         <>
                             <Card className="a-card">
-                                <Accordion.Item className='a-item' eventKey={i}>
+                                <Accordion.Item className='a-item mt-3 mb-2' eventKey={i}>
                                     <Accordion.Header className='a-header'> <div className="header-content">
-                                        <span>{gen.name}</span>
+                                        <span className='fw-bold'>{gen.name}</span>
                                         <div className="photo-preview">
                                             {
                                                 ta.filter(member => member.gen === gen.key)
@@ -41,7 +41,7 @@ export default function Team() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <span className='a-des'>{gen.des}</span>
-                                        <div class="row pb-5 mb-4">
+                                        <div className="row pt-4">
                                             {
                                                 ta.map((ta, j) => (
                                                     ta.gen === gen.key ? (
