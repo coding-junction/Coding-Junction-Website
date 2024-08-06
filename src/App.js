@@ -21,57 +21,57 @@ import ViewUpcomingEve from './components/UpcomingEvents/ViewUpcomingEve/ViewUpc
 import TQResponse from './components/UpcomingEvents/ViewUpcomingEve/TQResponse/TQResponse';
 
 function App() {
-  
+
   return (
     <div className="App">
       <BrowserRouter>
         <Particle />
-        <WebCursor />
+        {/* <WebCursor /> */}
         <Nav />
-          <Routes>
-            <Route path = "/" element={
-              <>
-                <Landing />
-                <UpcomingEvents />
-                <AboutUs />
-                <ProjDom />
-                <Gallery/>
-              </>
-            } />
-            <Route path = "/underConstruction" element={
-              <UnderBuild />
-            } />
-            <Route path = "/events" element={
-              <Events />
-            } />
-            <Route path="/login" element={
-              <Login />
-            } />
-            <Route path="/register" element={
-              <Registration />
-            } />
-            <Route path = "/download-app" element={
-              <DownApp />
-            } />
-            <Route path = "/about-us-more" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/team" element={
-              <Team />
-            }/>
-            <Route path = "/contact-us" element={
-              <UnderBuild />
-            }/>
-            <Route path = "/archives" element={
-              <Archive />
-            }/>
-            <Route path = "/view-event" element={
-              <ViewUpcomingEve />
-            }/>
-            <Route path = "/thank-you-for-your-response" element={
-              <TQResponse />
-            }/>
-          </Routes>
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Landing />
+              <UpcomingEvents />
+              <AboutUs />
+              <ProjDom />
+              <Gallery />
+            </>
+          } />
+          <Route path="/underConstruction" element={
+            <UnderBuild />
+          } />
+          <Route path="/events" element={
+            <Events />
+          } />
+          <Route path="/login" element={
+            <Login />
+          } />
+          <Route path="/register" element={
+            <Registration />
+          } />
+          <Route path="/download-app" element={
+            <DownApp />
+          } />
+          <Route path="/about-us-more" element={
+            <UnderBuild />
+          } />
+          <Route path="/team" element={
+            <Team />
+          } />
+          <Route path="/contact-us" element={
+            <UnderBuild />
+          } />
+          <Route path="/archives" element={
+            <Archive />
+          } />
+          <Route path="/view-event" element={
+            <ViewUpcomingEve />
+          } />
+          <Route path="/thank-you-for-your-response" element={
+            <TQResponse />
+          } />
+        </Routes>
         <Footer />
       </BrowserRouter>
     </div>

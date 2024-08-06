@@ -4,15 +4,20 @@
     position: absolute;
     top: calc(50% - 150px);
     left: calc(50% - 100px);
-
     display: flex;
+    margin-bottom: 2rem;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    background: rgb(251, 144, 208) !important;
+}
+
+.c-name{
+    color: rgb(0, 153, 255) !important;
 }
 
 .t-card-photo{
-    border: 2px solid #a3dae0;
+    border: 2px solid #00ff00;
     width: 200px;
     height: 200px;
     border-radius: 14px;
@@ -51,11 +56,38 @@
 .t-card-social-button{
     cursor: none;
     font-size: 2rem;
-    color: #a3dae0;
+    color: #098ee7;
     background: transparent;
     border: none;
+    margin: 3px;
 }
 
 .t-card-social-button:hover{
-    color:white;
+    color: #d4ff00;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    filter: drop-shadow(0 0 10px #eeff00);
 }
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .progress {
+    height: 10px;
+  }

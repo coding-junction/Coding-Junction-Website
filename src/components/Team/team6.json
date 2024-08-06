@@ -1,8 +1,24 @@
 {
+  "genArray": [
+    {"key":1,
+      "name":"Gen 1",
+      "des":"The Most earliest batch that layed the foundation of the club"
+  },
+    {"key":2,
+      "name":"Gen 2",
+      "des":"2nd Generation build our club Strong and Secure"
+  },
+    {"key":3,
+      "name":"Gen 3",
+      "des":"3rd Generation who grow our club positivly"
+  }
+  ],
   "teamArray": [
     {
       "key": 1,
+      "gen":1,
       "name": "Raja Bhandari",
+      "role":"President",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949947/MEM/WhatsApp_Image_2023-11-14_at_12.31.41_6bf42805_vye8ys.jpg",
       "li": "https://www.linkedin.com/in/raja-bhandari/",
       "gh": "https://github.com/IamRaja007",
@@ -11,7 +27,9 @@
     },
     {
       "key": 2,
+      "gen":1,
       "name": "Aditya Gupta ",
+      "role":"President",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949948/MEM/WhatsApp_Image_2023-11-14_at_12.45.18_c27ed285_xfnj10.jpg",
       "li": "https://www.linkedin.com/in/aditya-gupta-036b1a211",
       "gh": "https://github.com/Adi-1904",
@@ -20,7 +38,9 @@
     },
     {
       "key": 3,
+      "gen":1,
       "name": "Saptyadeep Bhattacharjee ",
+      "role":"President",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699952531/MEM/WhatsApp_Image_2023-11-14_at_13.58.58_df9551ea_tbtsi0.jpg",
       "li": "https://www.linkedin.com/in/saptyadeep-bhattacharjee-247a58202/",
       "gh": "https://github.com/bsaptyadeep",
@@ -29,7 +49,9 @@
     },
     {
       "key": 4,
+      "gen":1,
       "name": "Sohom Chowdhury ",
+      "role":"President",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949969/MEM/WhatsApp_Image_2023-11-14_at_12.47.46_198d0add_cw0sbs.jpg",
       "li": "https://www.linkedin.com/in/sitsmesohom",
       "gh": "https://github.com/Sitsmesohom",
@@ -38,7 +60,9 @@
     },
     {
       "key": 5,
+      "gen":2,
       "name": "Arpita Kar",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949956/MEM/WhatsApp_Image_2023-11-14_at_13.17.29_cee43761_gicjlo.jpg",
       "li": "https://www.linkedin.com/in/arpita-kar-120ab625b",
       "gh": "https://github.com/arpitakar999",
@@ -47,7 +71,9 @@
     },
     {
       "key": 6,
+      "gen":2,
       "name": "Aayush Chatterjee ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949955/MEM/WhatsApp_Image_2023-11-14_at_13.25.04_2a6f38d0_oubolb.jpg",
       "li": "https://www.linkedin.com/in/aayush-chatterjee-073077248",
       "gh": "https://github.com/aayush8421",
@@ -56,7 +82,9 @@
     },
     {
       "key": 7,
+      "gen":2,
       "name": "Pranay Pal",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949959/MEM/WhatsApp_Image_2023-11-14_at_13.41.39_b987ee8b_sql49p.jpg",
       "li": "https://www.linkedin.com/in/pranaypal/",
       "gh": "https://github.com/Pranay-Pal",
@@ -65,7 +93,9 @@
     },
     {
       "key": 8,
+      "gen":2,
       "name": "Ayush Jalan ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949954/MEM/WhatsApp_Image_2023-11-14_at_12.25.21_11d63597_or02lk.jpg",
       "li": "https://www.linkedin.com/in/ayush-jalan",
       "gh": "https://github.com/The15thSin",
@@ -74,7 +104,9 @@
     },
     {
       "key": 9,
+      "gen":2,
       "name": "Dona Murmu ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949949/MEM/WhatsApp_Image_2023-11-14_at_12.46.21_2bbbf7a0_tg6ixz.jpg",
       "li": "https://www.linkedin.com/in/dona-murmu-733b9a187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "gh": "https://github.com/Dona4449",
@@ -83,7 +115,9 @@
     },
     {
       "key": 10,
+      "gen":2,
       "name": "Souvik Sural ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949950/MEM/WhatsApp_Image_2023-11-14_at_12.32.27_c62b847a_gmlazs.jpg",
       "li": "https://www.linkedin.com/in/souvik-sural-1abba3227",
       "gh": "https://github.com/Souvik34",
@@ -92,7 +126,9 @@
     },
     {
       "key": 11,
+      "gen":2,
       "name": "Biswarup Naha ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949948/MEM/WhatsApp_Image_2023-11-14_at_12.39.29_e74f9acd_rfrda7.jpg",
       "li": "https://www.linkedin.com/in/biswarup-naha-1a3aa4137/",
       "gh": "https://github.com/biswarup-naha",
@@ -101,7 +137,9 @@
     },
     {
       "key": 12,
+      "gen":2,
       "name": "Dipa Ghosh ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949960/MEM/WhatsApp_Image_2023-11-14_at_13.27.44_d65b6a19_jvg4f5.jpg",
       "li": "https://www.linkedin.com/in/dipa-ghosh-122041266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "gh": "https://github.com/dipa-ghosh11",
@@ -110,7 +148,9 @@
     },
     {
       "key": 13,
+      "gen":2,
       "name": "Aayush Raj",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949968/MEM/WhatsApp_Image_2023-11-14_at_12.53.25_009cad12_ms9pts.jpg",
       "li": "#",
       "gh": "#",
@@ -119,7 +159,9 @@
     },
     {
       "key": 14,
+      "gen":2,
       "name": "Sourav Karmakar ",
+      "role":"abc",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699952531/MEM/WhatsApp_Image_2023-11-14_at_14.28.40_8c0fad8c_v7fxap.jpg",
       "li": "https://www.linkedin.com/in/sourav-karmakar-51654823b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "gh": "#",
@@ -128,7 +170,20 @@
     },
     {
       "key": 15,
+      "gen":2,
       "name": "Soumajith Das",
+      "role":"abc",
+      "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949954/MEM/WhatsApp_Image_2023-11-14_at_12.57.52_5bf69fc0_wksjfx.jpg",
+      "li": "#",
+      "gh": "#",
+      "fb": "#",
+      "ig": "#"
+    },
+    {
+      "key": 16,
+      "gen":3,
+      "name": "Ranadeb Saha",
+      "role":"C/C++ | Website Management",
       "image": "https://res.cloudinary.com/dneogaofx/image/upload/v1699949954/MEM/WhatsApp_Image_2023-11-14_at_12.57.52_5bf69fc0_wksjfx.jpg",
       "li": "#",
       "gh": "#",
