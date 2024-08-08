@@ -52,8 +52,9 @@ export default function Team() {
                                                             image={ta.image}
                                                             li={ta.li}
                                                             gh={ta.gh}
-                                                            fb={ta.fb}
+                                                            tw={ta.tw}
                                                             ig={ta.ig}
+                                                            em={ta.em}
                                                         />
 
                                                     ) : (
