@@ -83,12 +83,29 @@
             "key": 14,
             "name": "Mission Ignition🔥",
             "doe" : "30/04/2024",
-            "desc": "The Coding Junction Club is excited to invite all 2nd-year and 3rd-year students with a passion for coding to join our dynamic community as a Core Member. 🚀 MISSION IGNITION, our annual inclusion program, is here! We're searching for our next core members, the brilliant minds who will shape the future of Coding Junction. As a Core Member, you'll be at the heart of action. Ready to join the mission? Register now through by clicking below button. 👇",
-            "isLive": true,
+            "desc": "The Coding Junction Club is excited to invite all 2nd-year and 3rd-year IT students with a passion for coding to join our dynamic community as a Core Member. 🚀 MISSION IGNITION, our annual inclusion program, is here! We're searching for our next core members, the brilliant minds who will shape the future of Coding Junction. As a Core Member, you'll be at the heart of action. Ready to join the mission?",
+            "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1713456826/CJ%20Website%20Event%20Images/inclusion_banner_vj9wxh.png",
-            "regLink": "/view-event",
+            "regLink": "",
             "photosLink": [
 
+            ],
+            "winners": []
+        },
+
+        {
+            "key": 15,
+            "name": "Unleashing Innovation with Hack4Bengal 3.0",
+            "doe" : "04/06/2024",
+            "desc": "🎉 Get ready to unleash your creativity and innovation at Hack4Bengal 3.0! 🎉 Join us on June 4, 2024, from 6:00 PM to 7:30 PM for an electrifying evening hosted by Coding Junction and the ever-inspiring Biswarup Naha. This isn't just another hackathon; it's a celebration of ideas, collaboration, and tech wizardry, all happening online so you can join the party from wherever you are!",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1717392166/WhatsApp_Image_2024-06-02_at_16.31.11_tal2dh.jpg",
+            "regLink": "https://lu.ma/48djamdg",
+            "photosLink": [
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1717593096/IMG_20240604_204622_941_nu1lhz.webp",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1717593136/IMG_20240604_204622_981_sptf3n.webp",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1717593177/IMG_20240604_204623_084_bbf7ts.webp",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1717593238/IMG_20240604_204623_101_lvxkdv.webp"
             ],
             "winners": []
         }
