@@ -5,7 +5,7 @@ import './ViewUpcomingEve.css'
 function ViewUpcomingEve() {
     const [submitted, setSubmitted] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
 
     const handleSubmit = () => {
         setIsLoading(true)
@@ -47,13 +47,13 @@ function ViewUpcomingEve() {
                             <label htmlFor="entry.883168625" placeholder="Name">
                                 Name:
                             </label>
-                            <input type="text" placeholder='Enter your Full Name' name="entry.883168625" required/>
+                            <input type="text" placeholder='Enter your Full Name' name="entry.883168625" required />
                         </span>
                         <span className='vue-fields'>
                             <label htmlFor="entry.50030841" placeholder="Roll Number">
                                 Roll Number:
                             </label>
-                            <input type="text" placeholder='Eg. 202XX0XX' name="entry.50030841" required/>
+                            <input type="text" placeholder='Eg. 202XX0XX' name="entry.50030841" required />
                         </span>
                         <span className='vue-fields'>
                             <label htmlFor="entry.479711544" placeholder="Year" required>
@@ -83,7 +83,7 @@ function ViewUpcomingEve() {
                             <label htmlFor="entry.263134429" placeholder="Email">
                                 Email:
                             </label>
-                            <input type="email" placeholder='Enter your Email' name="entry.263134429" required/>
+                            <input type="email" placeholder='Enter your Email' name="entry.263134429" required />
                         </span>
                         <span className='vue-fields'>
                             <label htmlFor="entry.1876691485" placeholder="Phone Number">
@@ -108,7 +108,7 @@ function ViewUpcomingEve() {
                     </form>
                 </div>
             </div>
-            {isLoading && 
+            {isLoading &&
                 <div className="loading-screen">
                     <p>Please Wait...</p>
                     <div className='ls-ring'></div>

@@ -1,61 +1,95 @@
-.t-card{
+.t-card {
     height: 300px;
     width: 200px;
-    position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 100px);
-
+    margin: 0 auto;
     display: flex;
+    margin-bottom: 2rem;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    background: rgb(5, 40, 72) !important;
+    position: relative;
 }
 
-.t-card-photo{
-    border: 2px solid #a3dae0;
+.c-name,
+.c-role {
+    color: rgb(254, 254, 254) !important;
+}
+
+.c-body {
+    padding: 0 !important;
+    text-align: left;
+    width: 100%;
+}
+
+.t-card-social-button {
+    cursor: pointer;
+    font-size: 23px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    margin: 5px;
+}
+
+.t-card-photo {
+    border: 2px solid #00ff00;
     width: 200px;
     height: 200px;
     border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.t-card-photo img{
-    object-fit: cover;
-    height: calc(100% - 4px);
-    width: calc(100% - 4px);
-    border-radius: 10px;
+    overflow: hidden;
 }
 
-.t-card-name{
+.t-card-photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.t-card-name {
     display: flex;
     justify-content: center;
     margin: 0.5rem 0;
 }
-.t-card-name h3{
+
+.t-card-name h3 {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.t-card-social{
-    position: relative;
-    height: auto;
+.t-card-social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0.3rem;
-    border: 1px sold green;
     align-items: center;
 }
 
-.t-card-social-button{
-    cursor: none;
-    font-size: 2rem;
-    color: #a3dae0;
-    background: transparent;
-    border: none;
+.t-card-social-button:hover {
+    color: #d4ff00;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    filter: drop-shadow(0 0 10px #eeff00);
 }
 
-.t-card-social-button:hover{
-    color:white;
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.progress {
+    height: 10px;
 }

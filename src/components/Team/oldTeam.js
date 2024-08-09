@@ -21,33 +21,33 @@ export default function Team() {
                     {
                         ta.map((ta) => (
                             <>
-                            <div className='t-inner-circle'
-                                onClick= {() => setMember(ta.key)}
+                                <div className='t-inner-circle'
+                                    onClick={() => setMember(ta.key)}
                                 >
                                     <img src={ta.image} alt={ta.key} />
                                 </div>
                             </>
                         ))
                     }
-                        <div className="t-ring-1"></div>
-                        <div className="t-ring-2"></div>
+                    <div className="t-ring-1"></div>
+                    <div className="t-ring-2"></div>
                     {
-                        ta.filter(ta => ta.key == member).map(ta=>
-                                <TeamCard key={ta.key}
-                                        name={ta.name}
-                                        image={ta.image}
-                                        li={ta.li}
-                                        gh={ta.gh}
-                                        fb={ta.fb}
-                                        ig={ta.ig}
-                                        />
-                            )
+                        ta.filter(ta => ta.key == member).map(ta =>
+                            <TeamCard key={ta.key}
+                                name={ta.name}
+                                image={ta.image}
+                                li={ta.li}
+                                gh={ta.gh}
+                                fb={ta.fb}
+                                ig={ta.ig}
+                            />
+                        )
                     }
 
                 </div>
             </div>
             <div className='teams-not-available'>
-                <UnderBuild 
+                <UnderBuild
                     head={"This page is only available for PC as of now!!!"}
                 />
             </div>
