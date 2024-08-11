@@ -11,7 +11,7 @@ export default function Welcome() {
       </div>
       <div className='typing-text'>
         <h3>
-          University Institute of Technology
+          Bawal Bichi Institute of Technology
         </h3>
       </div>
     </div>
