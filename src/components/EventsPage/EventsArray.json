@@ -114,7 +114,7 @@
             "name": "KUBEKONNECT",
             "doe" : "22/08/2024",
             "desc": "🎉Get ready to dive into the world of Kubernetes at KUBEKONNECT, hosted by the vibrant community of Coding Junction in collaboration with Cloud Native Hooghly! Join us on August 22, 2024, from 11:30 AM to 2:00 PM at the University Institute Of Technology in Bardhaman.",
-            "isLive": live,
+            "isLive": true,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1723724927/uit_cszj25.png",
             "regLink": "https://lu.ma/m8xd9hbd",
             "photosLink": [
