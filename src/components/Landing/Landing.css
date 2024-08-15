@@ -1,4 +1,4 @@
-#landing{
+.landing{
   height: auto;
   margin:  2rem;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-#intro{
+.intro{
     /* color: aliceblue; */
     font-size: 4rem;
     color: #00111d;
@@ -20,10 +20,6 @@
     3px -3px 0 #bdf8ff;
     padding: 2rem 0rem;
 
-}
-
-.h1,h1{
-  font-size: revert !important;
 }
 
 .typing-text{
