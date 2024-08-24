@@ -92,10 +92,10 @@
     align-items: center;
 }
 
-.t-circle{
+/* .t-circle{
     width: 600px;
     height: 600px;
-    /* border: 1px solid red; */
+    // border: 1px solid red;
     border-radius: 50%;
     position: relative;
 }
@@ -295,4 +295,4 @@
     .teams-not-available{
         display: contents;
     }
-}
+} */
