@@ -22,6 +22,9 @@
 
 }
 
+.h1,h1{
+  font-size: revert !important;
+}
 .h3,h3{
   font-size: revert !important;
 }
