@@ -54,9 +54,9 @@ export default function Footer() {
             </Link>
           </div>
          <div className='brandassets'>
-            <a href="https://bit.ly/cj-brand-assets" target="_blank"></a>
+            <a href="https://bit.ly/cj-brand-assets" target="_blank">
               <button>Brand Assets</button>
-            </Link>
+            </a>
           </div>
         </div>
     </div>
