@@ -138,6 +138,19 @@
     border-bottom: 1px solid #a3dae0;
 }
 
+.brandassets{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.brandassets button{
+    background-color: #00000000;
+    border: none;
+    color: #a3dae0;
+    border-bottom: 1px solid #a3dae0;
+}
+
 .footer-heart{
     display: inline-block;
     color: white;

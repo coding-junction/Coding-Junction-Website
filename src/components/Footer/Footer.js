@@ -53,6 +53,11 @@ export default function Footer() {
               <button>&gt;&gt; Archives</button>
             </Link>
           </div>
+         <div className='brandassets'>
+            <Link to='/brand-assets'>
+              <button>Brand Assets</button>
+            </Link>
+          </div>
         </div>
     </div>
   )
