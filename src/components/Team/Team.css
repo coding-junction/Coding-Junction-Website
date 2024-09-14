@@ -92,6 +92,32 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 850px){
+    .a-main{
+        height: auto;
+    width: auto;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem; 
+    margin-bottom: 0rem;
+    border-radius: 10px;
+    border: 2px solid #a3dae0;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    padding: 0.8rem;
+    }
+
+    .accordion-body{
+        padding: 0rem !important;
+        margin: 0rem !important;
+    }
+
+    .a-des{
+        padding: 1rem;
+        display: flex;
+    }
+} 
+
+
 /* .t-circle{
     width: 600px;
     height: 600px;
@@ -279,20 +305,4 @@
 
 .teams-not-available{
     display: none;
-}
-
-@media only screen and (max-width: 850px){
-    .Team{
-        padding: 2rem 0.4rem;
-    }
-    .team-title h1{
-        padding: 0.5rem 2rem;
-        font-size: 2rem;
-    }
-    .team-members{
-        display: none;
-    }
-    .teams-not-available{
-        display: contents;
-    }
 } */
