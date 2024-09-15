@@ -11,7 +11,7 @@ function ComPrtn() {
       <div className="comprtn-head">
         <h1>Community Partners</h1>
       </div>
-      <Marquee speed={150}>
+      <Marquee speed={100}>
         {prtn.map((pt, i) => (
           <div key={i} className="p-img-container">
             <img className="p-img" src={pt.img} alt={pt.name} />
