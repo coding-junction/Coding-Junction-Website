@@ -4,12 +4,47 @@
         {
             "key" :"1",
             "name":"Unstop",
-            "img":""
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/Unstop-Logo-Blue-Small_uqk32i.png"
         },
         {
             "key" :"2",
-            "name":"Cloud native Hooghly",
-            "img":""
+            "name":"Rise In",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/risein-logo3_jsbz6a.png"
+        },
+        {
+            "key" :"3",
+            "name":"Postman",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316201/Postman-logo-orange-2021_d76mlq.png"
+        },
+        {
+            "key" :"4",
+            "name":"Cloud Native Hooghly",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/cnh_logo_stacked_epgjd4.png"
+        },
+        {
+            "key" :"5",
+            "name":"Frost Hacks",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/frosthacks_1_wbivba.jpg"
+        },
+        {
+            "key" :"6",
+            "name":"Status Code 1",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/status_code_1_djdfxd.jpg"
+        },
+        {
+            "key" :"7",
+            "name":"Where U Elevate",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/Secondary_Logo_oz4ww1.png"
+        },
+        {
+            "key" :"8",
+            "name":"Give My Certificate",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316126/givemycertificate_logo_fb6cmf.png"
+        },
+        {
+            "key" :"9",
+            "name":"Nordek",
+            "img":"https://res.cloudinary.com/dneogaofx/image/upload/v1726316761/officialnordek_logo_cjdslo.jpg"
         }
     ]
 }
