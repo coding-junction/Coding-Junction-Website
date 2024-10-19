@@ -108,6 +108,23 @@
                 "https://res.cloudinary.com/dneogaofx/image/upload/v1717593238/IMG_20240604_204623_101_lvxkdv.webp"
             ],
             "winners": []
+        },
+
+        {
+            "key": 16,
+            "name": "Unlock the secrets of SMART INDIA HACKATHON 2024! 🔓💻",
+            "doe" : "22/09/2024",
+            "desc": "Learn from our previous year SIH finalist 📝 Participation guidelines 🤔 Problem statement selection 💻 Tips & tricks 🏆 Winning strategies Gear up for SIH 2024! 💡 Don't miss out! 🚀",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1726985408/WhatsApp_Image_2024-09-21_at_23.25.47_mufp8v.jpg",
+            "regLink": "https://meet.google.com/gyk-nryf-qap",
+            "photosLink": [
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1727263501/WhatsApp_Image_2024-09-24_at_20.37.12_mpd6ng.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1727263502/WhatsApp_Image_2024-09-24_at_20.37.13_ytw2x4.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1727263502/WhatsApp_Image_2024-09-24_at_20.37.14_1_xqx9ub.jpg",
+                "https://res.cloudinary.com/dneogaofx/image/upload/v1727263502/WhatsApp_Image_2024-09-24_at_20.37.14_fuhwkh.jpg"
+            ],
+            "winners": []
         }
     ]
 }
