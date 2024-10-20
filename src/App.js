@@ -11,7 +11,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import Gallery from './components/Gallery/Gallery';
-/* import ComPrtn from './components/ComPrtn/ComPrtn'; */
+import ComPrtn from './components/ComPrtn/ComPrtn';
 import DownApp from './components/DownApp/DownApp';
 import Archive from './components/Archive/Archive';
 import Events from './components/EventsPage/EventsPage';
@@ -37,7 +37,7 @@ function App() {
               <AboutUs />
               <ProjDom />
               <Gallery />
-              /* <ComPrtn /> */
+              <ComPrtn />
             </>
           } />
           <Route path="/underConstruction" element={
