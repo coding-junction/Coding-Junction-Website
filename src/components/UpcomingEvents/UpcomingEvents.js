@@ -44,7 +44,7 @@ function UpcomingEvents() {
             </div>
             <div className="events-link-button">
               <Link to={event.regLink}>
-                <button>Register</button>
+                <button>Comming Soon</button>
               </Link>
             </div>
           </div>
