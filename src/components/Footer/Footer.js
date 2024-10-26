@@ -21,7 +21,7 @@ export default function Footer() {
             <img src={require('../../Assets/Logo/cj_new_logo_2024.png')} alt="club-logo" />
             <h3>Coding Junction</h3>
             <p>A club by Students of UIT-BU.</p>
-            <p>Copyright &copy; 2023</p>
+            <p>Copyright &copy; 2024</p>
             <p style={{ margin:"auto", marginTop: "1rem", padding: "auto"}}>Made with <span className="footer-heart">&#10084;</span> from Coding Junction Members</p>
         </div>
         <div className='footer-soc'>
