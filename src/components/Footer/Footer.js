@@ -18,7 +18,7 @@ export default function Footer() {
           </form>
         </div>
         <div className='footer-cj'>
-            <img src={require('../../Assets/Logo/club-logo-2.png')} alt="club-logo" />
+            <img src={require('../../Assets/Logo/cj_new_logo_2024.png')} alt="club-logo" />
             <h3>Coding Junction</h3>
             <p>A club by Students of UIT-BU.</p>
             <p>Copyright &copy; 2023</p>

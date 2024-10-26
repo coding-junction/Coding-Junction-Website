@@ -125,6 +125,18 @@
                 "https://res.cloudinary.com/dneogaofx/image/upload/v1727263502/WhatsApp_Image_2024-09-24_at_20.37.14_fuhwkh.jpg"
             ],
             "winners": []
+        },
+
+        {
+            "key": 17,
+            "name": "The Battle of the Minds Returns: Brain Battle 2.0",
+            "doe" : "Revealing soon",
+            "desc": "Are you ready for a mind-bending battle of intellect? 🧠💥 Brain Battle is back, and it's bigger and better than ever! Season 2 is coming soon, and we're excited to announce that the competition is heating up. 🔥Get ready to witness the most brilliant minds clash in a series of challenging puzzles, brain teasers, and trivia contests. 🧩🤔 Think you have what it takes to be crowned the ultimate Brain Battle champion? 👑🧠",
+            "isLive": true,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1729775095/Yellow_Black_Modern_Course_YouTube_Thumbnail_vxyvne.jpg",
+            "regLink": false,
+            "photosLink": [],
+            "winners": []
         }
     ]
 }
