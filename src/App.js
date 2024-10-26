@@ -37,7 +37,7 @@ function App() {
               <AboutUs />
               <ProjDom />
               <Gallery />
-              <ComPrtn />
+              {/* <ComPrtn /> */}
             </>
           } />
           <Route path="/underConstruction" element={
