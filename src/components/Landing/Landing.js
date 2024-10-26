@@ -13,6 +13,7 @@ export default function Welcome() {
         <h3>
           University Institute of Technology
         </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uWiQGzq2R8Y?si=nKv2SlT8dOaX3RIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
   )
