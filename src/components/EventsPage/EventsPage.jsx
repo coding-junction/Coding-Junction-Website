@@ -89,7 +89,7 @@ function EventsPage() {
                                 <>
                                     <div className="events-link-button">
                                         <Link to={event.regLink}>
-                                            <button>Comming Soon</button>
+                                            <button>Register Now</button>
                                         </Link>
                                     </div>
                                 </> :
