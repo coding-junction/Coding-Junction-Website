@@ -16,39 +16,35 @@
             ],
             "winners": []
         },
-
         {
             "key": 2,
             "name": "Sparks Contest",
-            "doe" : "24/11/2020",
+            "doe": "24/11/2020",
             "desc": "1. Unleash and showcase your photos with the new sparks contest. 2. All notifications regarding the club in one spot. 3. Seamless interaction with club members. 4. Efficiently express opinions with polls.",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1711802035/CJ%20Website%20Event%20Images/WhatsApp_Image_2024-03-30_at_18.03.22_b18d587d_gmcs0q.jpg",
             "regLink": "",
-            "photosLink": [
-
-            ],
-            "winners": ["Deedhiti Dingal (IT 2nd Year)", "Aman Singh (IT 1st Year)"]
+            "photosLink": [],
+            "winners": [
+                "Deedhiti Dingal (IT 2nd Year)",
+                "Aman Singh (IT 1st Year)"
+            ]
         },
-
         {
             "key": "3-11",
             "name": "More events left to be listed",
-            "doe" : "na",
+            "doe": "na",
             "desc": "na",
             "isLive": false,
             "bannerLink": "../../Assets/Images/uc.png",
             "regLink": "",
-            "photosLink": [
-
-            ],
+            "photosLink": [],
             "winners": []
         },
-
         {
             "key": 12,
             "name": "Introduction to Docker & K8 ",
-            "doe" : "31/03/2024",
+            "doe": "31/03/2024",
             "desc": "Dive into the world of containerization!  Our free Docker webinar is happening on March 31st, 7pm - 9pm. Learn how to build, ship, and run your apps anywhere. Register now (link in bio)! 1 more day to go... 🤩  #docker #webinar #devops #codingjunction",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1711801676/CJ%20Website%20Event%20Images/March_lc1zol.png",
@@ -61,11 +57,10 @@
             ],
             "winners": []
         },
-
         {
             "key": 13,
             "name": "Nordek event",
-            "doe" : "21/04/2024",
+            "doe": "21/04/2024",
             "desc": "lorem ipsum",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1714490585/CJ%20Website%20Event%20Images/WhatsApp_Image_2024-04-19_at_10.35.30_569bd2d9_set1xu.jpg",
@@ -78,25 +73,21 @@
             ],
             "winners": []
         },
-
         {
             "key": 14,
             "name": "Mission Ignition🔥",
-            "doe" : "30/04/2024",
+            "doe": "30/04/2024",
             "desc": "The Coding Junction Club is excited to invite all 2nd-year and 3rd-year IT students with a passion for coding to join our dynamic community as a Core Member. 🚀 MISSION IGNITION, our annual inclusion program, is here! We're searching for our next core members, the brilliant minds who will shape the future of Coding Junction. As a Core Member, you'll be at the heart of action. Ready to join the mission?",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1713456826/CJ%20Website%20Event%20Images/inclusion_banner_vj9wxh.png",
             "regLink": "",
-            "photosLink": [
-
-            ],
+            "photosLink": [],
             "winners": []
         },
-
         {
             "key": 15,
             "name": "Unleashing Innovation with Hack4Bengal 3.0",
-            "doe" : "04/06/2024",
+            "doe": "04/06/2024",
             "desc": "🎉 Get ready to unleash your creativity and innovation at Hack4Bengal 3.0! 🎉 Join us on June 4, 2024, from 6:00 PM to 7:30 PM for an electrifying evening hosted by Coding Junction and the ever-inspiring Biswarup Naha. This isn't just another hackathon; it's a celebration of ideas, collaboration, and tech wizardry, all happening online so you can join the party from wherever you are!",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1717392166/WhatsApp_Image_2024-06-02_at_16.31.11_tal2dh.jpg",
@@ -109,11 +100,10 @@
             ],
             "winners": []
         },
-
         {
             "key": 16,
             "name": "Unlock the secrets of SMART INDIA HACKATHON 2024! 🔓💻",
-            "doe" : "22/09/2024",
+            "doe": "22/09/2024",
             "desc": "Learn from our previous year SIH finalist 📝 Participation guidelines 🤔 Problem statement selection 💻 Tips & tricks 🏆 Winning strategies Gear up for SIH 2024! 💡 Don't miss out! 🚀",
             "isLive": false,
             "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1726985408/WhatsApp_Image_2024-09-21_at_23.25.47_mufp8v.jpg",
@@ -126,15 +116,25 @@
             ],
             "winners": []
         },
-
         {
             "key": 17,
-            "name": "The Battle of the Minds Returns: Brain Battle 2.0",
-            "doe" : "15th Dec to 20th Dec 2024",
+            "name": "The Battle of the Minds Returns: Brain Battle 2.0
+            "doe": "Revealing soon",
             "desc": "Are you ready for a mind-bending battle of intellect? 🧠💥 Brain Battle is back, and it's bigger and better than ever! Season 2 is coming soon, and we're excited to announce that the competition is heating up. 🔥Get ready to witness the most brilliant minds clash in a series of challenging puzzles, brain teasers, and trivia contests. 🧩🤔 Think you have what it takes to be crowned the ultimate Brain Battle champion? 👑🧠",
+            "isLive": false,
+            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1729775095/Yellow_Black_Modern_Course_YouTube_Thumbnail_vxyvne.jpg",
+            "regLink": false,
+            "photosLink": [],
+            "winners": []
+        },
+        {
+            "key": 18,
+            "name": "Annual Member Inclusion Programme 2025",
+            "doe": "Revealing soon",
+            "desc": "🎮 New Season. New MVPs.😉Hey Guys, it’s time to level up🔥 Coding Junction is welcoming fresh talent 😤 for Tech, Coding, Event Ops & Support Teams. If you’ve got the skills (or just the enthusiasm to learn🎀), this is your chance to be part of something big! 🚀 Don’t just watch from the sidelines— join the club and make an impact!",
             "isLive": true,
-            "bannerLink": "https://res.cloudinary.com/dneogaofx/image/upload/v1731349246/WhatsApp_Image_2024-11-11_at_10.01.23_shdkdk.jpg",
-            "regLink": "https://unstop.com/hackathons/brain-battle-season-2-coding-junction-1185487",
+            "bannerLink": "https://res.cloudinary.com/dqyjrqcde/image/upload/v1741199103/WhatsApp_Image_2025-03-03_at_10.52.19_vqbfes.jpg",
+            "regLink": "https://bit.ly/cj-member-inclusion",
             "photosLink": [],
             "winners": []
         }
